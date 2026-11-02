@@ -1,0 +1,60 @@
+/* Include ONCE from system-user.dtsi after the generated pl.dtsi.
+ * Uses DTG 2022.2 labels from the unchanged V0.16 XSA. Merge into existing
+ * nodes; do not add duplicate nodes by unit address. Not a standalone DTBO.
+ * TX/PHY intentionally disabled: see README.md for the two software blockers.
+ */
+&v014_fmch_iic {
+    compatible = "xlnx,xps-iic-2.00.a";
+    reg = <0x0 0x82030000 0x0 0x10000>;
+    interrupt-parent = <&gic>;
+    interrupts = <0 93 4>;
+    clocks = <&zynqmp_clk 71>;
+    clock-names = "s_axi_aclk";
+    clock-frequency = <100000>;
+    #address-cells = <1>;
+    #size-cells = <0>;
+    status = "disabled";
+};
+
+&v014_hdmi_tx_ss {
+    compatible = "xlnx,v-hdmi-tx-ss-3.2", "xlnx,v-hdmi-tx-ss-3.1";
+    reg = <0x0 0x82000000 0x0 0x20000>;
+    reg-names = "hdmi-txss";
+    interrupt-parent = <&gic>;
+    interrupts = <0 91 4>;
+    interrupt-names = "irq";
+    xlnx,input-pixels-per-clock = <2>;
+    xlnx,max-bits-per-component = <8>;
+    xlnx,vid-interface = <0>;
+    /delete-property/ xlnx,include-hdcp-1-4;
+    /delete-property/ xlnx,include-hdcp-2-2;
+    /delete-property/ xlnx,audio-enabled;
+    status = "disabled";
+};
+
+&v014_vid_phy {
+    compatible = "xlnx,vid-phy-controller-2.2";
+    reg = <0x0 0x82020000 0x0 0x10000>;
+    interrupt-parent = <&gic>;
+    interrupts = <0 92 4>;
+    interrupt-names = "irq";
+    clocks = <&zynqmp_clk 71>;
+    clock-names = "vid_phy_axi4lite_aclk";
+    xlnx,input-pixels-per-clock = <2>;
+    xlnx,nidru = <0>;
+    xlnx,nidru-refclk-sel = <0>;
+    xlnx,rx-no-of-channels = <3>;
+    xlnx,tx-no-of-channels = <3>;
+    xlnx,rx-protocol = <3>;
+    xlnx,tx-protocol = <1>;
+    xlnx,rx-refclk-sel = <1>;
+    xlnx,tx-refclk-sel = <0>;
+    xlnx,rx-pll-selection = <0>;
+    xlnx,tx-pll-selection = <6>;
+    xlnx,hdmi-fast-switch = <1>;
+    xlnx,transceiver-type = <5>;
+    xlnx,tx-buffer-bypass = <1>;
+    xlnx,transceiver-width = <2>;
+    xlnx,use-gt-ch4-hdmi = <0>;
+    status = "disabled";
+};

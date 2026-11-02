@@ -1,0 +1,50 @@
+{
+  "collected_files": 3070,
+  "collected_bytes": 781496199,
+  "excluded_files": 10738,
+  "excluded_bytes": 2802823862,
+  "internal_hardlink_saved_bytes": 80585553,
+  "originals_changed": [],
+  "modified_copies": 37,
+  "archives": [
+    {
+      "path": "build/dpu_kernel/dpu_b4096.xo",
+      "sha256": "7816e892f3ca58229993e9315192a0f4d2e63a5f94210edb2d7edf57846726d3",
+      "bytes": 1393380,
+      "zip_crc_error": null,
+      "license_key_members": []
+    },
+    {
+      "path": "platform/generated/fengyan_v015_zcu104/export/fengyan_v015_zcu104/hw/fengyan_v015_extensible.xsa",
+      "sha256": "429256cd8b769b2f790d0c82f7d36b9a8e37da216335afc120c89518936cf066",
+      "bytes": 172177263,
+      "zip_crc_error": null,
+      "license_key_members": []
+    },
+    {
+      "path": "fengyan_v016_final_same_build.xsa",
+      "sha256": "e6ba9fe3e76d5df34e88006b24cc32402e3ebbd6f283f2bebabef64eeb139492",
+      "bytes": 4897793,
+      "zip_crc_error": null,
+      "license_key_members": [],
+      "embedded_bits": {
+        "fengyan_v016_final_same_build.bit": "f606830973ff74ceb9d5d4779fedffed6c44ae9dfde939722249c04d191b1852"
+      },
+      "original_final_bit_sha256": "f606830973ff74ceb9d5d4779fedffed6c44ae9dfde939722249c04d191b1852",
+      "same_build_bit_matches": true,
+      "embedded_hwh": {
+        "design_1.hwh": "a4e10841b18d201ae5d499c5452ab6700214d21d6e99c7dad1b79bbf1c62cb42",
+        "design_1_control_smartconnect_0.hwh": "4c5e103ed870c7b2b3bec4c8b6119b4ba52ed5fa80bda347b11153ce6017ce96",
+        "design_1_ddr_smartconnect_0.hwh": "fc8da878be6c9c6fbd18fe0de4d067f082dc3f10967e5032588c51413893e20e",
+        "design_1_v014_hdmi_tx_ss_0.hwh": "78efe526d2f563d378ddf5830f9be6aa23c35d980374b6330b731baf88661afb"
+      },
+      "final_project_hwh_sha256": "a4e10841b18d201ae5d499c5452ab6700214d21d6e99c7dad1b79bbf1c62cb42",
+      "hwh_matches_final_project": true
+    }
+  ],
+  "hardware_rebuild_executed": false,
+  "cross_machine_build_verified": false,
+  "delivery_status": "候选联调包",
+  "hdmi_software_blocker": true,
+  "full_chain_board_acceptance_passed": false
+}

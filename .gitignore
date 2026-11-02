@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs and temporary files
+*.log
+*.jou
+*.str
+*.tmp
+*.bak
+*.backup
+*.swp
+*.swo
+Thumbs.db
+desktop.ini
+
+# Vivado/Vitis generated output
+.Xil/
+.ipcache/
+.cache/
+*.runs/
+*.gen/
+*.sim/
+*.hw/
+*.ip_user_files/
+_x/
+build/
+vitis_hls.log
+xcd.log
+
+# Simulation output
+xsim.dir/
+*.wdb
+*.vcd
+*.fst
+*.pb
+
+# Large/generated reports that should be regenerated
+*.rpt
+*.dcp
+*.ltx
+*.mmi
+
+# Local board captures
+captures/
+evidence-local/
+board-logs/
+
+# Regenerated native-test evidence
+runtime/tests/evidence/*.so
+runtime/tests/evidence/*.dll
+runtime/tests/evidence/*.s
+

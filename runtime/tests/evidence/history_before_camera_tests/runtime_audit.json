@@ -1,0 +1,31 @@
+{
+  "status": "OFFLINE_TEST_PASS",
+  "run_utc": "2026-10-31T16:30:32.713041+00:00",
+  "scope": "offline Python protocol model + host RAM execution + AArch64 cross compilation; NOT real PL/RTL execution",
+  "tests": 40,
+  "ordinary_passes": 40,
+  "expected_review_failures": [],
+  "unexpected_failures": 0,
+  "errors": 0,
+  "unexpected_successes": [],
+  "skipped": [],
+  "source_integrity": {
+    "pl_runtime.py": {
+      "sha256": "cdb1c73c8a3299b983c650857e5b35fa90cacd54c2fcfaf39b969753467fc8b4",
+      "matches_test_start": true
+    },
+    "native/memio.c": {
+      "sha256": "75176612ebf6b01ba2d75d625f0cd31340f1c270a4f205f29cae53886952b45d",
+      "matches_test_start": true
+    },
+    "run_pipeline.py": {
+      "sha256": "b6c0d07a8d5c93e19c39acd4139c178c8e9f995a97a7467ba859c3b8e40d50c1",
+      "matches_test_start": true
+    }
+  },
+  "native_host_execution": "allocated RAM only",
+  "aarch64_board_execution": "NOT_RUN",
+  "hardware_dma_mmio_cache_test": "NOT_RUN",
+  "owner_timeout_mainloop": "simulated 1.01s inference; explicit PL owner timeout; exit 1; no committed result or JSONL success",
+  "exit_code": 0
+}

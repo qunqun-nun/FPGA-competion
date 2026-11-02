@@ -1,0 +1,36 @@
+{
+  "test_run_utc": "2026-10-31T16:47:08.567883+00:00",
+  "production": {
+    "pl_runtime.py": {
+      "sha256": "cdb1c73c8a3299b983c650857e5b35fa90cacd54c2fcfaf39b969753467fc8b4",
+      "matches_test_start": true
+    },
+    "native/memio.c": {
+      "sha256": "75176612ebf6b01ba2d75d625f0cd31340f1c270a4f205f29cae53886952b45d",
+      "matches_test_start": true
+    },
+    "run_pipeline.py": {
+      "sha256": "1a2cc1529cb75f2152d635da50e886788f3d651db5fa638fe272a1a9fe30483b",
+      "matches_test_start": true
+    },
+    "camera_source.py": {
+      "sha256": "194de8ac9618e1812b2f2a74e3e621c270f950f1e9c85a4e18049142c0dc1d81",
+      "matches_test_start": true
+    },
+    "start.sh": {
+      "sha256": "665106de28f12ad352eadd7e06a1f611e8ae73321ec15fec21a2867bca8f40e8",
+      "matches_test_start": true
+    },
+    "hdmi/pynq_hdmi_init.py": {
+      "sha256": "4628b6e71752d3cc9bfac32103164165296aea2303bd2f9a4de5a8c66708175f",
+      "matches_test_start": true
+    }
+  },
+  "tests": {
+    "run_runtime_audit.py": "e10ff81fcc123417a6600c9fbb7b2c016c9597c5558e6131dca68145f5ec970c",
+    "test_camera_source.py": "5a7134b5b4a68c7bf3f0426ecccb6752132d29f0b943bd3f43c9c18d01723d2b",
+    "test_memio_native.py": "a32cf5e1fa7ac6786974baeab586ae460b29b95535e2c19c5ed42a8f17ff234d",
+    "test_pl_runtime.py": "af4523cc2d1179b4af3bdc31b035489e3000d4d273ac18e02eb0ef7b4f0a9bae"
+  },
+  "scope": "offline simulation/stubs/host RAM and cross compilation only"
+}

@@ -1,0 +1,23 @@
+{
+  "software_version": "V0.17.3",
+  "hardware_version": "V0.17",
+  "hardware_stem": "fengyan_v017_dpu",
+  "hardware_build_complete": true,
+  "full_camera_dpu_hdmi_board_verified": false,
+  "hardware_changes": [
+    "Retain V0.16 aux reset polarity fix",
+    "Drive HDMI IDT clock chip reset release at M12 high",
+    "Reclaim unowned old READY frame slots during tracking without overwriting DPU-owned frames"
+  ],
+  "dpu_fingerprint": "0x0101000016010407",
+  "hdmi_license": "hardware_evaluation",
+  "camera_input": "board USB UVC, Linux V4L2, converted to 640x480 GRAY8",
+  "model_sha256": "9f6302986694ead804ae7542d7c39fbbb49cef5e9a28fa8419dc7e060a52568b",
+  "clock_fix_board_verified": false,
+  "clock_fix_board_evidence": "USER_SUPPLIED_OTHER_PC_REPORT_PASS_99.999MHz_DIV15x1",
+  "clock_fix_board_evidence_note": "Pass reported externally; raw logs not supplied locally",
+  "idt_fix_status": "OFFLINE_PASS_BOARD_RETEST_PENDING",
+  "tx_redriver_address": "0x5e",
+  "tx_redriver_model": "DP159",
+  "hdmi_board_status": "PENDING"
+}

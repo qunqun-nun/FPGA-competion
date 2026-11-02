@@ -1,0 +1,5 @@
+{
+  "virtual_pointer_hex": "0x231ff45b020",
+  "above_4gib": true,
+  "unsigned_and_offset_roundtrip": "PASS"
+}

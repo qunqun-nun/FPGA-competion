@@ -1,0 +1,30 @@
+/* Include after v016-hdmi-audited.dtsi ONLY when this exact PL bitstream
+ * is loaded before kernel probing. AXI access to absent PL can hang the CPU.
+ * Do not use this in a boot where XRT loads the PL later.
+ * IDT uses the actual linux-xlnx 2022.2 driver binding, not the newer upstream
+ * renesas,8t49n241 binding. Provider probe is not a complete HDMI modeset.
+ */
+/ {
+    v016_idt_xtal: hdmi-idt-xtal {
+        compatible = "fixed-clock";
+        #clock-cells = <0>;
+        clock-frequency = <40000000>;
+    };
+};
+&v014_fmch_iic {
+    status = "okay";
+    v016_dp159: retimer@5c {
+        compatible = "ti,dp159";
+        reg = <0x5c>;
+        #clock-cells = <0>;
+    };
+    v016_idt: clock-generator@6c {
+        compatible = "idt,idt8t49n241";
+        reg = <0x6c>;
+        #clock-cells = <1>;
+        clocks = <&v016_idt_xtal>;
+        clock-names = "input-xtal";
+        /* No arbitrary settings blob or assigned output rate. Verify board
+         * reset, initial register map and TX Q2/Q3 routing before modeset. */
+    };
+};

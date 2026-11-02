@@ -1,0 +1,33 @@
+{
+  "source_sha256": "75176612ebf6b01ba2d75d625f0cd31340f1c270a4f205f29cae53886952b45d",
+  "host_compiler": "gcc.EXE (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 8.1.0",
+  "host_commands": [
+    [
+      "D:\\MinGW\\mingw64\\bin\\gcc.EXE",
+      "-std=c11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-shared",
+      "C:\\Users\\Admin\\Desktop\\\u5927\u521b\\V0.17.3_HDMI\u4fee\u590d_20261102\\deployment\\runtime\\native\\memio.c",
+      "-o",
+      "C:\\Users\\Admin\\Desktop\\\u5927\u521b\\V0.17.3_HDMI\u4fee\u590d_20261102\\deployment\\runtime\\tests\\evidence\\memio_win64.dll"
+    ],
+    [
+      "D:\\MinGW\\mingw64\\bin\\gcc.EXE",
+      "-std=c11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-S",
+      "C:\\Users\\Admin\\Desktop\\\u5927\u521b\\V0.17.3_HDMI\u4fee\u590d_20261102\\deployment\\runtime\\native\\memio.c",
+      "-o",
+      "C:\\Users\\Admin\\Desktop\\\u5927\u521b\\V0.17.3_HDMI\u4fee\u590d_20261102\\deployment\\runtime\\tests\\evidence\\memio_win64.s"
+    ]
+  ],
+  "host_platform": "Windows-10-10.0.19045-SP0",
+  "pointer_bits": 64,
+  "test_scope": "allocated host RAM only, not real DMA/MMIO/cache coherency"
+}

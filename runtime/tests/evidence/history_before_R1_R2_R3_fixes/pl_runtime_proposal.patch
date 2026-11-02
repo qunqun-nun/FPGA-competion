@@ -1,0 +1,62 @@
+--- a/runtime/pl_runtime.py
++++ b/runtime/pl_runtime.py
+@@ -132,13 +132,14 @@
+             raise RuntimeError('DMA is not running')
+         self.lib.fy_copy(self.source.ptr, gray.ctypes.data, gray.nbytes)
+         # Clear previous completion/errors, then program address before LENGTH.
+-        self.dma.write(0x04, 0x1770)
++        # Only IRQ latches are W1C; cause bits are RO and need reset/recovery.
++        self.dma.write(0x04, 0x7000)
+         self.dma.write(0x18, INPUT)
+         self.dma.write(0x1C, 0)
+         self.dma.write(0x28, gray.nbytes)
+         def completed():
+             status = self.dma.read(0x04)
+-            if status & 0x770:
++            if status & 0x4770:
+                 raise RuntimeError('DMA MM2S error 0x%x' % status)
+             return bool(status & 0x1000)  # IOC: not an idle bit left over from before LENGTH
+         self.wait(completed, 3, 'DMA frame timeout')
+@@ -171,8 +172,18 @@
+ 
+     def assert_owner(self, request):
+         current = tuple(self.ctrl.read(o) for o in (0x10, 0x14, 0x18, 0x1C))
+-        if current != request or not self.ctrl.read(0x24) & 0x10:
+-            raise RuntimeError('PL frame ownership expired/cancelled; refusing stale result')
++        active = bool(self.ctrl.read(0x24) & 0x10)
++        if current != request or not active:
++            # Same expired identity plus recovery reason identifies this timeout;
++            # do not classify an unrelated old sticky bit as the current cause.
++            reason = self.ctrl.read(0xD0)
++            timeout_count = self.ctrl.read(0xD8)
++            if current == request and not active and reason == 1 and timeout_count:
++                raise TimeoutError('PL owner timeout (~1 second from dispatch); '
++                                   'frame ownership expired/cancelled; refusing stale result: '
++                                   + str(self.snapshot()))
++            raise RuntimeError('PL frame ownership expired/cancelled; refusing stale result: '
++                               + str(self.snapshot()))
+ 
+     def publish(self, request, detections):
+         import math
+@@ -182,8 +193,8 @@
+         coords, score, state = [0, 0, 0, 0], 0, 0
+         if best is not None:
+             x, y, w, h = best['bbox']
+-            left, top = max(0, min(639, math.floor(x))), max(0, min(479, math.floor(y)))
+-            right, bottom = min(640, math.ceil(x + w)), min(480, math.ceil(y + h))
++            left, top = max(0, min(640, math.floor(x))), max(0, min(480, math.floor(y)))
++            right, bottom = max(0, min(640, math.ceil(x + w))), max(0, min(480, math.ceil(y + h)))
+             if right > left and bottom > top:
+                 coords = [left, top, right - left, bottom - top]
+                 score = round(max(0, min(1, best['confidence'])) * 65535)
+@@ -200,7 +211,9 @@
+         return {name: self.ctrl.read(offset) for name, offset in
+                 (('status', 4), ('frames', 8), ('error', 12), ('request_seq', 0x10),
+                  ('request_state', 0x24), ('completed', 0x70), ('dropped', 0x78),
+-                 ('stale_results', 0x7C), ('aborted', 0x84), ('fusion', 0xF8))}
++                 ('stale_results', 0x7C), ('aborted', 0x84), ('fusion', 0xF8),
++                 ('profiler_timeouts', 0xB4), ('profiler_flags', 0xB8),
++                 ('recovery_reason', 0xD0), ('recovery_timeouts', 0xD8))}
+ 
+     def close(self):
+         try:

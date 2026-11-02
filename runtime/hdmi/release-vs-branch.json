@@ -1,0 +1,153 @@
+{
+  "url": "https://api.github.com/repos/Xilinx/hdmi-modules/compare/25b6fe7a26a975be15c002b48cfd4c291486491e...320153961a4b67795f8252ac8964f8c7919a39ca",
+  "html_url": "https://github.com/Xilinx/hdmi-modules/compare/25b6fe7a26a975be15c002b48cfd4c291486491e...320153961a4b67795f8252ac8964f8c7919a39ca",
+  "permalink_url": "https://github.com/Xilinx/hdmi-modules/compare/Xilinx:25b6fe7...Xilinx:3201539",
+  "diff_url": "https://github.com/Xilinx/hdmi-modules/compare/25b6fe7a26a975be15c002b48cfd4c291486491e...320153961a4b67795f8252ac8964f8c7919a39ca.diff",
+  "patch_url": "https://github.com/Xilinx/hdmi-modules/compare/25b6fe7a26a975be15c002b48cfd4c291486491e...320153961a4b67795f8252ac8964f8c7919a39ca.patch",
+  "base_commit": {
+    "sha": "25b6fe7a26a975be15c002b48cfd4c291486491e",
+    "node_id": "C_kwDOB20m2doAKDI1YjZmZTdhMjZhOTc1YmUxNWMwMDJiNDhjZmQ0YzI5MTQ4NjQ5MWU",
+    "commit": {
+      "author": {
+        "name": "Jagadeesh Banisetti",
+        "email": "jagadeesh.banisetti@xilinx.com",
+        "date": "2022-03-09T12:53:49Z"
+      },
+      "committer": {
+        "name": "Venkateshwar Rao Gannavarapu",
+        "email": "venkateshwar.rao.gannavarapu@xilinx.com",
+        "date": "2022-03-18T06:34:29Z"
+      },
+      "message": "hdmitx: Remove registring with hdmi-audio-codec driver\n\nThe hdmitx audio playback uses hdmi-audio-codec driver, which has been\nadded with a capture patch in it from 5.15. Hence using this codec\ndriver creates extra capture device which is not needed. This patch fixes\nthis issue by using its own dai_driver.\n\nSigned-off-by: Jagadeesh Banisetti <jagadeesh.banisetti@xilinx.com>",
+      "tree": {
+        "sha": "1c94345de38717d0c5d0a2d3004236888b12d5ad",
+        "url": "https://api.github.com/repos/Xilinx/hdmi-modules/git/trees/1c94345de38717d0c5d0a2d3004236888b12d5ad"
+      },
+      "url": "https://api.github.com/repos/Xilinx/hdmi-modules/git/commits/25b6fe7a26a975be15c002b48cfd4c291486491e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Xilinx/hdmi-modules/commits/25b6fe7a26a975be15c002b48cfd4c291486491e",
+    "html_url": "https://github.com/Xilinx/hdmi-modules/commit/25b6fe7a26a975be15c002b48cfd4c291486491e",
+    "comments_url": "https://api.github.com/repos/Xilinx/hdmi-modules/commits/25b6fe7a26a975be15c002b48cfd4c291486491e/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "07dba3e84f35ccd3e8c68a10b62c3e890b345ef0",
+        "url": "https://api.github.com/repos/Xilinx/hdmi-modules/commits/07dba3e84f35ccd3e8c68a10b62c3e890b345ef0",
+        "html_url": "https://github.com/Xilinx/hdmi-modules/commit/07dba3e84f35ccd3e8c68a10b62c3e890b345ef0"
+      }
+    ]
+  },
+  "merge_base_commit": {
+    "sha": "25b6fe7a26a975be15c002b48cfd4c291486491e",
+    "node_id": "C_kwDOB20m2doAKDI1YjZmZTdhMjZhOTc1YmUxNWMwMDJiNDhjZmQ0YzI5MTQ4NjQ5MWU",
+    "commit": {
+      "author": {
+        "name": "Jagadeesh Banisetti",
+        "email": "jagadeesh.banisetti@xilinx.com",
+        "date": "2022-03-09T12:53:49Z"
+      },
+      "committer": {
+        "name": "Venkateshwar Rao Gannavarapu",
+        "email": "venkateshwar.rao.gannavarapu@xilinx.com",
+        "date": "2022-03-18T06:34:29Z"
+      },
+      "message": "hdmitx: Remove registring with hdmi-audio-codec driver\n\nThe hdmitx audio playback uses hdmi-audio-codec driver, which has been\nadded with a capture patch in it from 5.15. Hence using this codec\ndriver creates extra capture device which is not needed. This patch fixes\nthis issue by using its own dai_driver.\n\nSigned-off-by: Jagadeesh Banisetti <jagadeesh.banisetti@xilinx.com>",
+      "tree": {
+        "sha": "1c94345de38717d0c5d0a2d3004236888b12d5ad",
+        "url": "https://api.github.com/repos/Xilinx/hdmi-modules/git/trees/1c94345de38717d0c5d0a2d3004236888b12d5ad"
+      },
+      "url": "https://api.github.com/repos/Xilinx/hdmi-modules/git/commits/25b6fe7a26a975be15c002b48cfd4c291486491e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/Xilinx/hdmi-modules/commits/25b6fe7a26a975be15c002b48cfd4c291486491e",
+    "html_url": "https://github.com/Xilinx/hdmi-modules/commit/25b6fe7a26a975be15c002b48cfd4c291486491e",
+    "comments_url": "https://api.github.com/repos/Xilinx/hdmi-modules/commits/25b6fe7a26a975be15c002b48cfd4c291486491e/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "07dba3e84f35ccd3e8c68a10b62c3e890b345ef0",
+        "url": "https://api.github.com/repos/Xilinx/hdmi-modules/commits/07dba3e84f35ccd3e8c68a10b62c3e890b345ef0",
+        "html_url": "https://github.com/Xilinx/hdmi-modules/commit/07dba3e84f35ccd3e8c68a10b62c3e890b345ef0"
+      }
+    ]
+  },
+  "status": "ahead",
+  "ahead_by": 1,
+  "behind_by": 0,
+  "total_commits": 1,
+  "commits": [
+    {
+      "sha": "320153961a4b67795f8252ac8964f8c7919a39ca",
+      "node_id": "C_kwDOB20m2doAKDMyMDE1Mzk2MWE0YjY3Nzk1ZjgyNTJhYzg5NjRmOGM3OTE5YTM5Y2E",
+      "commit": {
+        "author": {
+          "name": "Sunil Vaghela",
+          "email": "sunil.vaghela@xilinx.com",
+          "date": "2022-05-11T11:13:26Z"
+        },
+        "committer": {
+          "name": "Venkateshwar Rao Gannavarapu",
+          "email": "venkateshwar.rao.gannavarapu@amd.com",
+          "date": "2022-08-23T17:33:27Z"
+        },
+        "message": "Set have_edid flag when HDMI-Tx connected\n\nhave_edid flag resets on HDMI-Tx disconnected, but not\nset when HDMI-Tx again connected. This was causing EIO\nerror from hdmitx_audio_geteld().\n\nSigned-off-by: Sunil Vaghela <sunil.vaghela@xilinx.com>",
+        "tree": {
+          "sha": "1f53faab3abc9d77f8beb1c4f814fbf48afc7005",
+          "url": "https://api.github.com/repos/Xilinx/hdmi-modules/git/trees/1f53faab3abc9d77f8beb1c4f814fbf48afc7005"
+        },
+        "url": "https://api.github.com/repos/Xilinx/hdmi-modules/git/commits/320153961a4b67795f8252ac8964f8c7919a39ca",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Xilinx/hdmi-modules/commits/320153961a4b67795f8252ac8964f8c7919a39ca",
+      "html_url": "https://github.com/Xilinx/hdmi-modules/commit/320153961a4b67795f8252ac8964f8c7919a39ca",
+      "comments_url": "https://api.github.com/repos/Xilinx/hdmi-modules/commits/320153961a4b67795f8252ac8964f8c7919a39ca/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "25b6fe7a26a975be15c002b48cfd4c291486491e",
+          "url": "https://api.github.com/repos/Xilinx/hdmi-modules/commits/25b6fe7a26a975be15c002b48cfd4c291486491e",
+          "html_url": "https://github.com/Xilinx/hdmi-modules/commit/25b6fe7a26a975be15c002b48cfd4c291486491e"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "sha": "382e6814d1951df4ec2e2f142402e84cedc7e50e",
+      "filename": "hdmi/xilinx_drm_hdmi.c",
+      "status": "modified",
+      "additions": 46,
+      "deletions": 40,
+      "changes": 86,
+      "blob_url": "https://github.com/Xilinx/hdmi-modules/blob/320153961a4b67795f8252ac8964f8c7919a39ca/hdmi%2Fxilinx_drm_hdmi.c",
+      "raw_url": "https://github.com/Xilinx/hdmi-modules/raw/320153961a4b67795f8252ac8964f8c7919a39ca/hdmi%2Fxilinx_drm_hdmi.c",
+      "contents_url": "https://api.github.com/repos/Xilinx/hdmi-modules/contents/hdmi%2Fxilinx_drm_hdmi.c?ref=320153961a4b67795f8252ac8964f8c7919a39ca",
+      "patch": "@@ -324,6 +324,46 @@ static int __maybe_unused hdmitx_pm_resume(struct device *dev)\n \treturn 0;\n }\n \n+/* callback function for drm_do_get_edid(), used in xlnx_drm_hdmi_get_modes()\n+ * through drm_do_get_edid() from drm/drm_edid.c.\n+ *\n+ * called with hdmi_mutex taken\n+ *\n+ * Return 0 on success, !0 otherwise\n+ */\n+static int xlnx_drm_hdmi_get_edid_block(void *data, u8 *buf, unsigned int block,\n+\t\t\t\t  size_t len)\n+{\n+\tu8 *buffer;\n+\tstruct xlnx_drm_hdmi *xhdmi = (struct xlnx_drm_hdmi *)data;\n+\tXV_HdmiTxSs *HdmiTxSsPtr;\n+\tint ret;\n+\n+\t/* out of bounds? */\n+\tif (((block * 128) + len) > 256) return -EINVAL;\n+\n+\tbuffer = kzalloc(256, GFP_KERNEL);\n+\tif (!buffer) return -ENOMEM;\n+\n+\tHdmiTxSsPtr = (XV_HdmiTxSs *)&xhdmi->xv_hdmitxss;\n+\tif (!HdmiTxSsPtr->IsStreamConnected) {\n+\t\tdev_dbg(xhdmi->dev, \"xlnx_drm_hdmi_get_edid_block() stream is not connected\\n\");\n+\t}\n+\t/* first obtain edid in local buffer */\n+\tret = XV_HdmiTxSs_ReadEdid(HdmiTxSsPtr, buffer);\n+\tif (ret == XST_FAILURE) {\n+\t\tkfree(buffer);\n+\t\tdev_dbg(xhdmi->dev, \"xlnx_drm_hdmi_get_edid_block() failed reading EDID\\n\");\n+\t\treturn -EINVAL;\n+\t}\n+\n+\t/* then copy the requested 128-byte block(s) */\n+\tmemcpy(buf, buffer + block * 128, len);\n+\t/* free our local buffer */\n+\tkfree(buffer);\n+\treturn 0;\n+}\n+\n /* XV_HdmiTx_IntrHandler */\n static irqreturn_t hdmitx_irq_handler(int irq, void *dev_id)\n {\n@@ -581,13 +621,19 @@ static void TxConnectCallback(void *CallbackRef)\n \tXV_HdmiTxSs *HdmiTxSsPtr = &xhdmi->xv_hdmitxss;\n \tXVphy *VphyPtr = xhdmi->xvphy;\n \tXHdmiphy1 *XGtPhyPtr = xhdmi->xgtphy;\n+\tstruct edid *edid = NULL;\n \n \tdev_dbg(xhdmi->dev,\"%s()\\n\", __func__);\n \txvphy_mutex_lock(xhdmi->phy[0]);\n \tif (HdmiTxSsPtr->IsStreamConnected) {\n \t\tint xst_hdmi20;\n \t\txhdmi->cable_connected = 1;\n \t\txhdmi->connector.status = connector_status_connected;\n+\t\tedid = drm_do_get_edid(&xhdmi->connector, xlnx_drm_hdmi_get_edid_block, xhdmi);\n+\t\tif (edid) {\n+\t\t\txhdmi->have_edid = 1;\n+\t\t\tkfree(edid);\n+\t\t}\n \t\t/* Check HDMI sink version */\n \t\txst_hdmi20 = XV_HdmiTxSs_DetectHdmi20(HdmiTxSsPtr);\n \t\tdev_dbg(xhdmi->dev,\"TxConnectCallback(): TX connected to HDMI %s Sink Device\\n\",\n@@ -1059,46 +1105,6 @@ static int xlnx_drm_hdmi_connector_mode_valid(struct drm_connector *connector,\n \treturn status;\n }\n \n-/* callback function for drm_do_get_edid(), used in xlnx_drm_hdmi_get_modes()\n- * through drm_do_get_edid() from drm/drm_edid.c.\n- *\n- * called with hdmi_mutex taken\n- *\n- * Return 0 on success, !0 otherwise\n- */\n-static int xlnx_drm_hdmi_get_edid_block(void *data, u8 *buf, unsigned int block,\n-\t\t\t\t  size_t len)\n-{\n-\tu8 *buffer;\n-\tstruct xlnx_drm_hdmi *xhdmi = (struct xlnx_drm_hdmi *)data;\n-\tXV_HdmiTxSs *HdmiTxSsPtr;\n-\tint ret;\n-\n-\t/* out of bounds? */\n-\tif (((block * 128) + len) > 256) return -EINVAL;\n-\n-\tbuffer = kzalloc(256, GFP_KERNEL);\n-\tif (!buffer) return -ENOMEM;\n-\n-\tHdmiTxSsPtr = (XV_HdmiTxSs *)&xhdmi->xv_hdmitxss;\n-\tif (!HdmiTxSsPtr->IsStreamConnected) {\n-\t\tdev_dbg(xhdmi->dev, \"xlnx_drm_hdmi_get_edid_block() stream is not connected\\n\");\n-\t}\n-\t/* first obtain edid in local buffer */\n-\tret = XV_HdmiTxSs_ReadEdid(HdmiTxSsPtr, buffer);\n-\tif (ret == XST_FAILURE) {\n-\t\tkfree(buffer);\n-\t\tdev_dbg(xhdmi->dev, \"xlnx_drm_hdmi_get_edid_block() failed reading EDID\\n\");\n-\t\treturn -EINVAL;\n-\t}\n-\n-\t/* then copy the requested 128-byte block(s) */\n-\tmemcpy(buf, buffer + block * 128, len);\n-\t/* free our local buffer */\n-\tkfree(buffer);\n-\treturn 0;\n-}\n-\n static int xlnx_drm_hdmi_connector_get_modes(struct drm_connector *connector)\n {\n \tstruct xlnx_drm_hdmi *xhdmi = connector_to_hdmi(connector);"
+    }
+  ]
+}

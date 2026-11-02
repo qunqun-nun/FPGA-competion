@@ -1,0 +1,58 @@
+{
+  "same_build_xsa_bit_hwh_xclbin": true,
+  "final_reset_profile": {
+    "schema": 1,
+    "pynq": "3.0.1",
+    "embeddedsw": "2022.2",
+    "hwh_sha256": "8a556f2f1ee020932ee10352af887937f704d4637fa6ccd86d39adae191ccca8",
+    "tx": {
+      "BASEADDR": 2181038080,
+      "HIGHADDR": 2181169151,
+      "INPUT_PIXELS_PER_CLOCK": 2,
+      "MAX_BITS_PER_COMPONENT": 8,
+      "INCLUDE_LOW_RESO_VID": 0,
+      "INCLUDE_YUV420_SUP": 0,
+      "AXI_LITE_FREQ_HZ": 99999001
+    },
+    "phy": {
+      "BASEADDR": 2181169152,
+      "TX_NO_OF_CHANNELS": 3,
+      "RX_NO_OF_CHANNELS": 3,
+      "TX_PROTOCOL": 1,
+      "RX_PROTOCOL": 3,
+      "TX_REFCLK_SEL": 0,
+      "RX_REFCLK_SEL": 1,
+      "TX_PLL_SELECTION": 6,
+      "RX_PLL_SELECTION": 0,
+      "NIDRU": 0,
+      "NIDRU_REFCLK_SEL": 0,
+      "INPUT_PIXELS_PER_CLOCK": 2,
+      "TX_BUFFER_BYPASS": 1,
+      "HDMI_FAST_SWITCH": 1,
+      "TRANSCEIVER_WIDTH": 2,
+      "ERR_IRQ_EN": 0,
+      "USE_GT_CH4_HDMI": 0,
+      "TRANSCEIVER": 5,
+      "AXI_LITE_FREQ_HZ": 99999001,
+      "DRPCLK_FREQ": 99999001
+    },
+    "iic_base": 2181234688,
+    "mode": [
+      1280,
+      720,
+      60
+    ],
+    "reset_control": {
+      "constant_one": true,
+      "net": "const_one_dout",
+      "source": "const_one"
+    }
+  },
+  "hardware": {
+    "fengyan_v017_dpu.bit": "8a115a6f420529fcca1791a28978a63637991cb9f952aa56855cd5f2009b0440",
+    "fengyan_v017_dpu.hwh": "8a556f2f1ee020932ee10352af887937f704d4637fa6ccd86d39adae191ccca8",
+    "fengyan_v017_dpu.xclbin": "1903a6ea9cb9f2e997210340a59d64ed46ad3d3cc9b24d78e937f0e57d0f678a",
+    "fengyan_v017_final.xsa": "4a8a60a4bf5847cddcbc304f32f2615fd2478b78de2a285330051e01996fb11a"
+  },
+  "board_verified": false
+}

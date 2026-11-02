@@ -1,0 +1,16 @@
+/* Merge into the ACTUAL boot DT before booting Linux. NOT a runtime overlay. */
+/ {
+    reserved-memory {
+        #address-cells = <2>;
+        #size-cells = <2>;
+        ranges;
+        fengyan_frames@20000000 {
+            reg = <0x0 0x20000000 0x0 0x004b0000>;
+            no-map;
+        };
+        fengyan_input@21000000 {
+            reg = <0x0 0x21000000 0x0 0x00200000>;
+            no-map;
+        };
+    };
+};

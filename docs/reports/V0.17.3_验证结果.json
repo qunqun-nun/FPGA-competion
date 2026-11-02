@@ -1,0 +1,45 @@
+{
+  "software_version": "V0.17.3",
+  "hardware_version": "V0.17",
+  "tests": [
+    {
+      "name": "test_hdmi_iic.py",
+      "tests": 8,
+      "status": "PASS"
+    },
+    {
+      "name": "test_board_validation.py",
+      "tests": 12,
+      "status": "PASS"
+    },
+    {
+      "name": "pynq_test_hdmi.py",
+      "tests": 13,
+      "status": "PASS"
+    }
+  ],
+  "runtime_tests": {
+    "tests": 61,
+    "status": "PASS",
+    "log": "V0173_1.log",
+    "note": "initial output plus observed completion summary"
+  },
+  "total_tests_pass": 94,
+  "syntax": "PASS",
+  "source_evidence_replay": "PASS",
+  "evidence_read_count": 1,
+  "repeated_board_read": "PENDING",
+  "baseline_manifest_files": 1170,
+  "baseline_manifest": "PASS_UNMODIFIED",
+  "hardware_unchanged": {
+    "fengyan_v017_dpu.bit": "8a115a6f420529fcca1791a28978a63637991cb9f952aa56855cd5f2009b0440",
+    "fengyan_v017_dpu.hwh": "8a556f2f1ee020932ee10352af887937f704d4637fa6ccd86d39adae191ccca8",
+    "fengyan_v017_dpu.xclbin": "1903a6ea9cb9f2e997210340a59d64ed46ad3d3cc9b24d78e937f0e57d0f678a",
+    "fengyan_v017_final.xsa": "4a8a60a4bf5847cddcbc304f32f2615fd2478b78de2a285330051e01996fb11a"
+  },
+  "native_pio_definitions": "PASS",
+  "new_board_hdmi": "PENDING",
+  "camera_boxes_cold_boot": "PENDING",
+  "edid_reader_limit": 256,
+  "hdmi_license": "hardware_evaluation"
+}

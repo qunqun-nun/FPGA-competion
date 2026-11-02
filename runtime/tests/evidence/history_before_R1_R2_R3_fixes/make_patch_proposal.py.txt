@@ -1,0 +1,39 @@
+"""Generate an unapplied proposal; do not edit production pl_runtime.py."""
+import difflib
+import hashlib
+from pathlib import Path
+root=Path(__file__).resolve().parents[1]
+original=(root/'pl_runtime.py').read_text(encoding='utf-8')
+proposed=original.replace('self.dma.write(0x04, 0x1770)',
+'''# Only IRQ latches are W1C; cause bits are RO and need reset/recovery.
+        self.dma.write(0x04, 0x7000)''').replace('if status & 0x770:', 'if status & 0x4770:')
+proposed=proposed.replace('''        if current != request or not self.ctrl.read(0x24) & 0x10:
+            raise RuntimeError('PL frame ownership expired/cancelled; refusing stale result')''',
+'''        active = bool(self.ctrl.read(0x24) & 0x10)
+        if current != request or not active:
+            # Same expired identity plus recovery reason identifies this timeout;
+            # do not classify an unrelated old sticky bit as the current cause.
+            reason = self.ctrl.read(0xD0)
+            timeout_count = self.ctrl.read(0xD8)
+            if current == request and not active and reason == 1 and timeout_count:
+                raise TimeoutError('PL owner timeout (~1 second from dispatch); '
+                                   'frame ownership expired/cancelled; refusing stale result: '
+                                   + str(self.snapshot()))
+            raise RuntimeError('PL frame ownership expired/cancelled; refusing stale result: '
+                               + str(self.snapshot()))''')
+proposed=proposed.replace('''left, top = max(0, min(639, math.floor(x))), max(0, min(479, math.floor(y)))
+            right, bottom = min(640, math.ceil(x + w)), min(480, math.ceil(y + h))''',
+'''left, top = max(0, min(640, math.floor(x))), max(0, min(480, math.floor(y)))
+            right, bottom = max(0, min(640, math.ceil(x + w))), max(0, min(480, math.ceil(y + h)))''')
+proposed=proposed.replace("('stale_results', 0x7C), ('aborted', 0x84), ('fusion', 0xF8))}",
+"""('stale_results', 0x7C), ('aborted', 0x84), ('fusion', 0xF8),
+                 ('profiler_timeouts', 0xB4), ('profiler_flags', 0xB8),
+                 ('recovery_reason', 0xD0), ('recovery_timeouts', 0xD8))}""")
+assert original!=proposed
+compile(proposed,'pl_runtime_proposal','exec')
+diff=''.join(difflib.unified_diff(original.splitlines(True),proposed.splitlines(True),
+    fromfile='a/runtime/pl_runtime.py',tofile='b/runtime/pl_runtime.py'))
+(root/'tests/pl_runtime_proposal.patch').write_text(diff,encoding='utf-8')
+# Keep only the reviewable patch, never overwrite the production file.
+print('Unapplied patch generated and syntax checked; production SHA256 '+
+      hashlib.sha256((root/'pl_runtime.py').read_bytes()).hexdigest())

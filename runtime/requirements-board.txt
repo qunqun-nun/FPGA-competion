@@ -1,0 +1,7 @@
+# Board-reported baseline; use the matching PYNQ image/vendor packages.
+# DO NOT pip-install desktop packages named xir/vart/xrt or replace PYNQ blindly.
+numpy==1.21.5
+# Board OpenCV: 4.5.4 (cv2; image-provided package)
+# PYNQ 3.0.1; VART/XIR 2.5; XRT/ZOCL 2.13.0
+# pynq_dpu and libxhdmi.so are provided by the corresponding board image/packages.
+# This file records dependencies, not an instruction to rebuild the board image.

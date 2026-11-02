@@ -1,0 +1,27 @@
+{
+  "checked": 1159,
+  "missing": 0,
+  "missing_items": [],
+  "external_tool_repositories": [
+    {
+      "owner": "build\\link\\_x\\link\\vivado\\vpl\\prj\\prj.xpr",
+      "kind": "IPRepoPath",
+      "reference": "F:/Xilinx/Vitis/2022.2/data/ip",
+      "resolved": "F:\\Xilinx\\Vitis\\2022.2\\data\\ip",
+      "exists": true,
+      "scope": "tool_install",
+      "required": true
+    },
+    {
+      "owner": "v017_link\\_x\\link\\vivado\\vpl\\prj\\prj.xpr",
+      "kind": "IPRepoPath",
+      "reference": "F:/Xilinx/Vitis/2022.2/data/ip",
+      "resolved": "F:\\Xilinx\\Vitis\\2022.2\\data\\ip",
+      "exists": true,
+      "scope": "tool_install",
+      "required": true
+    }
+  ],
+  "unexpected_external_sources": [],
+  "scope": "XPR File/repositories + IP-XACT fileGroups + BD XCI + XPFM; no rebuild performed"
+}

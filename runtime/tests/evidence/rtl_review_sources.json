@@ -1,0 +1,72 @@
+{
+  "ctrl_rtl": {
+    "path": "C:\\Users\\Admin\\Desktop\\大创\\V0.16_复位修复_20261031\\v014_unified_work_20261024\\ip_repo\\pl_sys_ctrl_1_0\\hdl\\pl_sys_ctrl_v1_0_S00_AXI.v",
+    "sha256": "2c5f2961806198ae339438cb58b76729ba55c50c85c2639ed13c40dc9a8ee8f5",
+    "recorded_utc": "2026-10-31T16:47:08.567883+00:00"
+  },
+  "writer_rtl": {
+    "path": "C:\\Users\\Admin\\Desktop\\大创\\V0.16_复位修复_20261031\\v014_unified_work_20261024\\ip_repo\\pl_frame_write_adapter_1_0\\src\\pl_frame_write_adapter.sv",
+    "sha256": "9efb2e0d16da6f17e207bffba44764566a7e09be75ffd3c72831ca93a8402370",
+    "recorded_utc": "2026-10-31T16:47:08.567883+00:00"
+  },
+  "scheduler_rtl": {
+    "path": "C:\\Users\\Admin\\Desktop\\大创\\V0.16_复位修复_20261031\\v014_unified_work_20261024\\ip_repo\\pl_frame_scheduler_1_0\\src\\pl_frame_scheduler.sv",
+    "sha256": "ff5473681004664d02c331fd3a4e0acb339437517391b60d9e5d6bb0baad94c1",
+    "recorded_utc": "2026-10-31T16:47:08.567883+00:00"
+  },
+  "profiler_rtl": {
+    "path": "C:\\Users\\Admin\\Desktop\\大创\\V0.16_复位修复_20261031\\v014_unified_work_20261024\\ip_repo\\pl_profiler_1_0\\src\\pl_profiler.sv",
+    "sha256": "e4cfb9f632f1ee22160a33a48f34f79e4ab9a9300e2f64a7dbd411df183ba368",
+    "recorded_utc": "2026-10-31T16:47:08.567883+00:00"
+  },
+  "recovery_rtl": {
+    "path": "C:\\Users\\Admin\\Desktop\\大创\\V0.16_复位修复_20261031\\v014_unified_work_20261024\\ip_repo\\pl_error_recovery_1_0\\src\\pl_error_recovery.sv",
+    "sha256": "19ec5a900bdfe0d1f9374de7cc36d2d648e4a0e4b32ba797cfa69e84fa496119",
+    "recorded_utc": "2026-10-31T16:47:08.567883+00:00"
+  },
+  "bd_script": {
+    "path": "C:\\Users\\Admin\\Desktop\\大创\\V0.16_复位修复_20261031\\v014_unified_work_20261024\\scripts\\design_1_bd.tcl",
+    "sha256": "85603eb1d56197a6003dce5980753dc286e665de7faffb907312a04cb9bf1913",
+    "recorded_utc": "2026-10-31T16:47:08.567883+00:00"
+  },
+  "actual_bd": {
+    "path": "C:\\Users\\Admin\\Desktop\\大创\\V0.16_复位修复_20261031\\v014_main_project_20261024\\project\\fengyan_pl.srcs\\sources_1\\bd\\design_1\\design_1.bd",
+    "sha256": "50f8cbb0a5c2850e2efdf43210acef38add1fe6ad30c36ba47bf7c841bc10774",
+    "recorded_utc": "2026-10-31T16:47:08.567883+00:00"
+  },
+  "main_loop": {
+    "path": "C:\\Users\\Admin\\Desktop\\大创\\V0.17_完整系统集成_20261031\\runtime\\run_pipeline.py",
+    "sha256": "1a2cc1529cb75f2152d635da50e886788f3d651db5fa638fe272a1a9fe30483b",
+    "recorded_utc": "2026-10-31T16:47:08.567883+00:00"
+  },
+  "runtime:pl_runtime.py": {
+    "path": "C:\\Users\\Admin\\Desktop\\大创\\V0.17_完整系统集成_20261031\\runtime\\pl_runtime.py",
+    "sha256": "cdb1c73c8a3299b983c650857e5b35fa90cacd54c2fcfaf39b969753467fc8b4",
+    "recorded_utc": "2026-10-31T16:47:08.567883+00:00"
+  },
+  "runtime:native/memio.c": {
+    "path": "C:\\Users\\Admin\\Desktop\\大创\\V0.17_完整系统集成_20261031\\runtime\\native\\memio.c",
+    "sha256": "75176612ebf6b01ba2d75d625f0cd31340f1c270a4f205f29cae53886952b45d",
+    "recorded_utc": "2026-10-31T16:47:08.567883+00:00"
+  },
+  "runtime:run_pipeline.py": {
+    "path": "C:\\Users\\Admin\\Desktop\\大创\\V0.17_完整系统集成_20261031\\runtime\\run_pipeline.py",
+    "sha256": "1a2cc1529cb75f2152d635da50e886788f3d651db5fa638fe272a1a9fe30483b",
+    "recorded_utc": "2026-10-31T16:47:08.567883+00:00"
+  },
+  "runtime:camera_source.py": {
+    "path": "C:\\Users\\Admin\\Desktop\\大创\\V0.17_完整系统集成_20261031\\runtime\\camera_source.py",
+    "sha256": "194de8ac9618e1812b2f2a74e3e621c270f950f1e9c85a4e18049142c0dc1d81",
+    "recorded_utc": "2026-10-31T16:47:08.567883+00:00"
+  },
+  "runtime:start.sh": {
+    "path": "C:\\Users\\Admin\\Desktop\\大创\\V0.17_完整系统集成_20261031\\runtime\\start.sh",
+    "sha256": "665106de28f12ad352eadd7e06a1f611e8ae73321ec15fec21a2867bca8f40e8",
+    "recorded_utc": "2026-10-31T16:47:08.567883+00:00"
+  },
+  "runtime:hdmi/pynq_hdmi_init.py": {
+    "path": "C:\\Users\\Admin\\Desktop\\大创\\V0.17_完整系统集成_20261031\\runtime\\hdmi\\pynq_hdmi_init.py",
+    "sha256": "4628b6e71752d3cc9bfac32103164165296aea2303bd2f9a4de5a8c66708175f",
+    "recorded_utc": "2026-10-31T16:47:08.567883+00:00"
+  }
+}

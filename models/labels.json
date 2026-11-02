@@ -1,0 +1,6 @@
+{
+  "names": ["tank"],
+  "class_count": 1,
+  "source": "Provided tank.v8i.yolov8/data.yaml: nc=1, names=['tank']",
+  "training_export_label_mapping_reconfirmed_by_A": false
+}
