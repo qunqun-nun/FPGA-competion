@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['end-tank']
+
+roboflow:
+  workspace: abysss-workspace-p2bjj
+  project: end-tank
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/abysss-workspace-p2bjj/end-tank/dataset/1

@@ -24,5 +24,6 @@
 board/** -text
 skill/** -text
 data/reference/** -text
+data/datasets/** -text
 sim/results/** -text
 
