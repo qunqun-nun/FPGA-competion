@@ -1,0 +1,24 @@
+{
+  "backup": "C:\\Users\\Admin\\Desktop\\大创\\可回退版本\\evidence_import_20261103_195532",
+  "archives": [
+    {
+      "package": "pynq",
+      "files": 30,
+      "verified_manifest_entries": 29,
+      "source_sha256": "f48dd7b9d14f094f19c3a89e9fd4602b404e19d0427002c3ef5ef65013e3e033"
+    },
+    {
+      "package": "model",
+      "files": 31,
+      "verified_manifest_entries": 30,
+      "source_sha256": "d7cecb25ddbccd4d957ec4437f3cd6620fae1aa8e4e18edceb96bbe6b33dca33"
+    },
+    {
+      "package": "board_evidence",
+      "files": 73,
+      "verified_manifest_entries": 72,
+      "source_sha256": "cfc09de2f118be167cebaf455a3331e3119298392fe36d6ded7150f02ca0b4be"
+    }
+  ],
+  "reference_copy": "data/reference/20261103"
+}

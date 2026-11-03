@@ -1,85 +1,9 @@
-# FengYan ZCU104 Infrared Video System
+针对红外图像存在对比度低、背景噪声干扰明显，以及实时视频处理对系统延迟和处理效率要求较高等问题，本文设计了一种基于 FPGA-DPU 异构协同的红外视频处理、目标检测与连续跟踪系统。系统以ZCU104 为硬件平台，以 FPGA PL端的视频流处理和图像预处理为核心，通过硬件流水线与并行处理提高图像处理效率，改善红外图像的视觉质量，为后续目标检测提供更适合的图 像输入，并结合间隔式目标检测与逐帧短时跟踪，实现红外目标的连续定位。
 
-FengYan is a ZCU104/PYNQ-based infrared video processing prototype. The current open-source snapshot combines the latest board-side software fixes from **V0.17.3** with the latest complete hardware baseline from **V0.17**.
+在 PL 端，系统以实时视频流处理为核心，构建涵盖视频输入、行场同步、图像统计、图像预处理、数据缓存及视频输出的完整硬件处理链路。针对红外图像动态范围有限、局部对比度不足及背景噪声干扰等问题，设计基于灰度统计的动态范围拉伸与局部细节增强方法，通过直方图统计、查找表、定点运算和行缓存等硬件结构，实现图像的高效流式处理。在此基础上，结合目标检测模型的输入要求，实现图像数据格式转换。同时，利用流水线并行处理和缓存管理机制，减少像素处理过程中的等待开销，保证视频流的连续传输与实时输出。针对两次目标检测之间的连续定位需求，在 PL 端实现基于绝对差和的单目标短时跟踪器，通过模板匹配与局部搜索逐帧更新目标位置，并结合误差和可信度判断目标状态，为后续检测触发和位置校正提供依据。
 
-## Current Status
+系统采用硬件适配、INT8量化并编译的YOLOv8n模型，DPU按预设帧间隔执行检测，输出目标类别、位置和置信度。跟踪可信度下降或目标丢失时，提前调用DPU重检，并据此校正位置、更新模板。间歇检测与逐帧跟踪相结合，减少对逐帧神经网络推理的依赖，提高处理速度。
 
-- Software version: V0.17.3
-- Hardware version: V0.17
-- Target board: Xilinx ZCU104
-- Runtime target: PYNQ 3.0.1 / Vitis 2022.2 environment
-- Status: offline tests passed; HDMI board retest is still pending
+针对视频输入与DPU推理速度不匹配造成的过期帧积压，设计基于三缓冲的Fresh-Frame调度，使DPU优先获取最新完整帧，并关联检测结果、跟踪状态和显示画面，避免延迟结果覆盖当前目标位置。该系统为资源受限环境下的红外视频智能处理提供可验证、可复现的实现方案。
 
-V0.17.3 is a software repair package. It keeps the V0.17 bitstream/HWH/XCLBIN/XSA artifacts and adds board-side fixes for FCLK0 adaptation, HDMI TX address handling, IDT clock validation, DP159 validation, EDID checks, and PIO status collection.
-
-## Repository Layout
-
-```text
-.
-├── hardware/          # RTL, custom IP, constraints, rebuild scripts, current V0.17 artifacts
-├── runtime/           # Latest V0.17.3 board-side Python/runtime code
-├── models/            # Labels and current xmodel
-├── samples/           # Sample image and labels for offline smoke tests
-├── docs/              # Interface docs, retest handoff, validation reports, source evidence
-├── tools/             # Reserved for future repo utilities
-├── deployment.json    # V0.17.3 package metadata
-├── release_manifest_v0173.json
-└── SHA256SUMS_v0173.txt
-```
-
-## Quick Start on Board
-
-Copy the repository to the board, then from the repository root:
-
-```bash
-cd runtime
-python3 verify_package.py ..
-python3 diagnose.py
-./start.sh
-```
-
-For the full V0.17.3 board retest sequence, read:
-
-- `docs/BOARD_BRINGUP_V0173.md`
-- `docs/BOARD_RETEST_HANDOFF.md`
-- `docs/reports/V0.17.3_修复与验证报告.md`
-
-## Hardware Rebuild Notes
-
-The hardware source snapshot is under `hardware/`:
-
-- `hardware/rtl/`: custom RTL and display pipeline sources
-- `hardware/ip_repo/`: custom Vivado IP packages
-- `hardware/constraints/`: board and pipeline constraints
-- `hardware/scripts/`: Vivado/Vitis helper scripts
-- `hardware/artifacts/`: current V0.17 bit/hwh/xclbin/xsa deployment artifacts
-
-The original V0.17 rebuild notes are kept in `hardware/README_构建输入包说明.md` and `hardware/V017_平台修复与增量参考说明.md`.
-
-## Validation Boundary
-
-This snapshot preserves the V0.17.3 validation boundary from the source package:
-
-- 94 offline/runtime/HDMI behavior tests were reported passing.
-- The package replays existing board JSONL evidence for HDMI validation logic.
-- The repository does **not** claim fresh board access, HPD/EDID live read, PLL lock, video output, detection boxes, camera input, or cold boot have passed after V0.17.3.
-- The default `image.ub` reserved-memory issue is not solved by this software-only repair.
-
-## Third-Party Dependencies
-
-Large third-party reference trees and generated Vivado/Vitis output are intentionally not included as first-class repository source. See `THIRD_PARTY_NOTICES.md` for the omitted reference trees and expected external toolchain dependencies.
-
-## Development Checks
-
-Portable checks for this GitHub-ready tree:
-
-```bash
-python -m compileall runtime
-python runtime/device_tree/test_prepare_boot_dtb.py
-```
-
-Some HDMI tests in the original validation package use pinned PYNQ/Xilinx reference snapshots. Those snapshots were omitted from this GitHub-ready tree to keep licensing boundaries clear; fetch them separately or run those tests inside the original V0.17.3 delivery package when needed.
-
-## License
-
-Original project code in this repository is released under the MIT License. Third-party IP, generated hardware artifacts, vendor libraries, model files, and board support components may have separate licenses or evaluation restrictions. Review `THIRD_PARTY_NOTICES.md` before publishing or redistributing binaries.
+关键词： 异构协同；红外视频处理；图像预处理；硬件流水线；目标检测

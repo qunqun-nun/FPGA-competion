@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "n": 120,
+  "window_seconds": 83.9340675,
+  "detection_service_fps": 1.429693610404381,
+  "observed_position_publication_fps": 0.0,
+  "stages": {
+    "cpu_heads_ms": {
+      "n": 120,
+      "mean_ms": 227.83126458333334,
+      "p95_ms": 239.39666
+    },
+    "decode_nms_restore_ms": {
+      "n": 120,
+      "mean_ms": 7.730054083333333,
+      "p95_ms": 8.26297
+    },
+    "detection_service_ms": {
+      "n": 120,
+      "mean_ms": 290.25940158333333,
+      "p95_ms": 304.25513
+    },
+    "dpu_submit_to_ready_ms": {
+      "n": 120,
+      "mean_ms": 13.995534833333334,
+      "p95_ms": 14.27767
+    },
+    "input_tensor_ms": {
+      "n": 120,
+      "mean_ms": 40.262835583333334,
+      "p95_ms": 42.90716
+    },
+    "observed_request_to_accept_ms": {
+      "n": 120,
+      "mean_ms": 341.2695004166667,
+      "p95_ms": 357.17642
+    },
+    "submit_to_pl_accept_ms": {
+      "n": 120,
+      "mean_ms": 0.35567108333333336,
+      "p95_ms": 0.37598
+    }
+  },
+  "note": "Not display latency or ground-truth localization success."
+}

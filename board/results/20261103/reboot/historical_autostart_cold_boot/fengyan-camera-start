@@ -1,0 +1,15 @@
+#!/bin/bash
+set -euo pipefail
+cd /home/xilinx/fengyan_v0173_model50_iicfix1_20261102
+export FY_PYTHON=/usr/local/share/pynq-venv/bin/python3
+export PYTHONUNBUFFERED=1
+export XILINX_XRT=/usr
+printf 'FENGYAN_BOOT_START boot_id=%s\n' "$(cat /proc/sys/kernel/random/boot_id)"
+for ((i=0;i<120;i++)); do
+    [[ -c /dev/video0 ]] && break
+    sleep 1
+done
+[[ -c /dev/video0 ]] || { echo 'CAMERA_NOT_READY after 120 seconds'; exit 1; }
+"$FY_PYTHON" -c 'import sys;sys.path.insert(0,"runtime");from pl_runtime import check_reserved;check_reserved();print("RESERVED_MEMORY_PASS")'
+"$FY_PYTHON" -c 'from pathlib import Path; p=Path("state/pipeline.pid"); pid=p.read_text().strip() if p.exists() else ""; assert not pid or (pid.isdigit() and not Path("/proc/"+pid).exists()), "Existing pipeline PID: inspect before restarting"; p.unlink(missing_ok=True)'
+sh runtime/start.sh --camera /dev/video0 --frames 0 --fps 5 2>&1 | awk '/^\{"request_sequence"/ {n++; if(n!=1 && n%60!=0) next} {print; fflush()}'

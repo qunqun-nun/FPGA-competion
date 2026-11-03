@@ -1,0 +1,15 @@
+{
+  "arch.json": "4404a8c71b5738d1df15a53db508811ac4d8fbce38effe448f6c78bbc9c8ec74",
+  "audit.json": "02bd5c82910262388e98a5760286b40ededeaadded1ddba7e84bcfc8b69aa5b6",
+  "best.pt": "4f2ce3d83db4076e833058ea5fcca008c90d30544153a4ec545d392fbb483ddd",
+  "calibration_manifest.json": "a2d8c5a15baa9f72d885092c98d13a5eca007e4d3b8124acfdbc3471572045a8",
+  "compile.log": "1da556d1ba00ff42a92ae4521b7bd54134c4cb0cb130a0402058de1f01c91bc8",
+  "compile_command.json": "d09cae415ec678292db9b858cd03d272654c60e2fc47e3c6b6ea42289216af87",
+  "float_test.json": "652047632f95d8b73469f0d6888da467f65d953f38905bf041acdf56845a18b0",
+  "map_comparison.json": "a58a75fa6a5a13a5932bc67d28ca4d16d1ff86d519c366ad36440710638413c2",
+  "md5sum.txt": "658ee451829b66b1aef25eb78f7434c438af228a8935d4cfe5c5ca2be3f8339c",
+  "meta.json": "a325d21ebdfbe337fa865d5aa16b5542777f879750dedd59d48e8ea758a98c42",
+  "tank_yolov8n_relu_latest_six_outputs.xmodel": "765a836d815ef8c9ebf6bcfb1811303768ba7d518cee3679b2c59a1eee989922",
+  "verification.json": "5955a170bbfff2726edc6166267f0adb5ce91bc1a73a5b7216892f12dd4e66d7",
+  "\u8bad\u7ec3\u91cf\u5316\u6838\u5bf9\u62a5\u544a.md": "6759a24f2cea05b05cc9c9c60203ba26f982a97fdaebfb98c2081ea4cd036e12"
+}

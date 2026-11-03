@@ -1,0 +1,1 @@
+sudo -n sed -i '/export PYTHONUNBUFFERED=1/a export XILINX_XRT=/usr' /usr/local/sbin/fengyan-camera-start && sudo -n bash -n /usr/local/sbin/fengyan-camera-start && sync

@@ -1,0 +1,14 @@
+{
+  "static_audit": "PASS",
+  "upstream_archive_and_extracted_files": "PASS",
+  "official_file_count": 153,
+  "python_syntax": "PASS",
+  "shell_lf_and_shebang": "PASS",
+  "dts_address_irq_disabled_checks": "PASS",
+  "boot_fdt_parser": "PASS: two 64-bit ranges; missing no-map and truncated blob rejected (synthetic)",
+  "shell_execution": "PASS: sh -n, empty-sysfs exit 2, build/DTS missing-input rejection; host shell only",
+  "full_dts_compile": "NOT_RUN: no full target DTS/DTB supplied",
+  "kernel_module_build": "NOT_RUN: target kernel build/SDK not supplied",
+  "board_initialization": "NOT_RUN: no board session",
+  "complete_hdmi_linux_initializer": "NOT_IMPLEMENTED: existing IDT provider needs board integration/verification; custom DRM source missing"
+}

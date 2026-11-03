@@ -1,0 +1,14 @@
+{
+  "status": "OFFLINE_TEST_PASS",
+  "python": "3.8.15",
+  "numpy": "1.24.4",
+  "inference_tests": 14,
+  "failures": 0,
+  "errors": 0,
+  "cpu_heads_report": "cpu_heads/offline_test_report.json",
+  "model_inspection": "model_inspection.json",
+  "board_execution": "NOT_RUN",
+  "real_image_comparison": "NOT_RUN",
+  "accuracy_validation": "NOT_RUN",
+  "camera_pl_dpu_hdmi_integration": "NOT_RUN"
+}

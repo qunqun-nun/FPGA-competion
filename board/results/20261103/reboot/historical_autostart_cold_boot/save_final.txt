@@ -1,0 +1,1 @@
+sudo -n mount /dev/mmcblk0p1 /boot && cat /boot/uEnv.txt && sha256sum /boot/BOOT.BIN /boot/image.ub /boot/image17.ub /boot/boot.scr && sudo -n cp -a /boot/uEnv.txt /etc/systemd/system/fengyan-camera.service /usr/local/sbin/fengyan-camera-start /home/xilinx/autostart_backup_20261103/ && sync && journalctl -b -u fengyan-camera.service --no-pager -n 5 | cut -c 1-1200

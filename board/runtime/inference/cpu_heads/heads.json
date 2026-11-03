@@ -1,0 +1,126 @@
+{
+  "model_sha256": "9f6302986694ead804ae7542d7c39fbbb49cef5e9a28fa8419dc7e060a52568b",
+  "branches": [
+    {
+      "name": "cv2_0",
+      "input_name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_0__Conv_1__ReLU_act__17569_fix",
+      "input_shape": [
+        1,
+        80,
+        80,
+        64
+      ],
+      "input_fix_point": 3,
+      "weight_fix_point": 7,
+      "bias_fix_point": 5,
+      "output_name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_0__Conv2d_2__ret_297",
+      "output_shape": [
+        1,
+        80,
+        80,
+        64
+      ]
+    },
+    {
+      "name": "cv2_1",
+      "input_name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_1__Conv_1__ReLU_act__17650_fix",
+      "input_shape": [
+        1,
+        40,
+        40,
+        64
+      ],
+      "input_fix_point": 4,
+      "weight_fix_point": 7,
+      "bias_fix_point": 5,
+      "output_name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_1__Conv2d_2__ret_309",
+      "output_shape": [
+        1,
+        40,
+        40,
+        64
+      ]
+    },
+    {
+      "name": "cv2_2",
+      "input_name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_2__Conv_1__ReLU_act__17731_fix",
+      "input_shape": [
+        1,
+        20,
+        20,
+        64
+      ],
+      "input_fix_point": 3,
+      "weight_fix_point": 8,
+      "bias_fix_point": 5,
+      "output_name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_2__Conv2d_2__ret_321",
+      "output_shape": [
+        1,
+        20,
+        20,
+        64
+      ]
+    },
+    {
+      "name": "cv3_0",
+      "input_name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_0__Conv_1__ReLU_act__17816_fix",
+      "input_shape": [
+        1,
+        80,
+        80,
+        64
+      ],
+      "input_fix_point": 5,
+      "weight_fix_point": 7,
+      "bias_fix_point": 4,
+      "output_name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_0__Conv2d_2__ret_335",
+      "output_shape": [
+        1,
+        80,
+        80,
+        1
+      ]
+    },
+    {
+      "name": "cv3_1",
+      "input_name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_1__Conv_1__ReLU_act__17897_fix",
+      "input_shape": [
+        1,
+        40,
+        40,
+        64
+      ],
+      "input_fix_point": 4,
+      "weight_fix_point": 7,
+      "bias_fix_point": 4,
+      "output_name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_1__Conv2d_2__ret_347",
+      "output_shape": [
+        1,
+        40,
+        40,
+        1
+      ]
+    },
+    {
+      "name": "cv3_2",
+      "input_name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_2__Conv_1__ReLU_act__17978_fix",
+      "input_shape": [
+        1,
+        20,
+        20,
+        64
+      ],
+      "input_fix_point": 4,
+      "weight_fix_point": 7,
+      "bias_fix_point": 4,
+      "output_name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_2__Conv2d_2__ret_359",
+      "output_shape": [
+        1,
+        20,
+        20,
+        1
+      ]
+    }
+  ],
+  "status": "OFFLINE_IMPLEMENTATION_BOARD_VALIDATION_PENDING"
+}

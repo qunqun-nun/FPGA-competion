@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "D:/Python/python.exe",
+    "-X",
+    "utf8",
+    "C:/Users/csq12/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+    "skill\\pynq-board-evidence"
+  ],
+  "exitcode": 0
+}

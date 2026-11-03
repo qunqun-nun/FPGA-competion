@@ -1,0 +1,8 @@
+{
+  "release": "2022.2",
+  "source_commit": "25b6fe7a26a975be15c002b48cfd4c291486491e",
+  "source_url": "https://codeload.github.com/Xilinx/hdmi-modules/tar.gz/25b6fe7a26a975be15c002b48cfd4c291486491e",
+  "archive_sha256": "fe3188638871523faac09d5b13309857596e70f2910bb3821714f2edcd4c0502",
+  "recipe_url": "https://github.com/Xilinx/meta-xilinx/blob/2e60ee606a1a9a08db72b69e018b1ed1fd2d1047/meta-xilinx-core/recipes-kernel/hdmi/kernel-module-hdmi_git.bb",
+  "note": "Pinned to official rel-v2022.2 recipe SRCREV, not mutable hdmi branch HEAD. hdmi-tree.json is discovery snapshot of HEAD; release-vs-branch.json records one later change."
+}

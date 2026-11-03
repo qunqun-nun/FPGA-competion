@@ -1,0 +1,16 @@
+{
+  "status": "BLOCKED",
+  "missing": [
+    "source_report_sha256",
+    "tool_version",
+    "implementation_complete",
+    "clock_constraints_verified",
+    "wns_ns",
+    "tns_ns",
+    "unconstrained_paths",
+    "LUT",
+    "BRAM"
+  ],
+  "failed": [],
+  "note": "Requires trusted extraction from a hash-identified completed report; not a board functional test."
+}

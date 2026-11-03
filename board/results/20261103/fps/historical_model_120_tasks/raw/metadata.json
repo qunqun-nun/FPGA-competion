@@ -1,0 +1,38 @@
+{
+  "host_test_date": "2026-11-03 Asia/Shanghai",
+  "boot_id": "7a84369b-aa19-4478-a935-e6cf0372450b",
+  "package": "/home/xilinx/fengyan_v0173_model50_iicfix1_20261102",
+  "input_camera": [
+    640,
+    480
+  ],
+  "input_dpu": [
+    1,
+    640,
+    640,
+    3
+  ],
+  "hdmi": [
+    1280,
+    720,
+    60
+  ],
+  "confidence": 0.25,
+  "nms_iou": 0.45,
+  "requested_fps": 5,
+  "warmup_tasks": 10,
+  "target_measured_tasks": 120,
+  "instrumentation_sha256": "01a0e6c7e722043ebba4356add923ab9e62a901911862761fb6b539b14cab457",
+  "model_sha256": "64fde5e0f8f21c1d42c253e29db2104c31b6b226a40b2269d3fba40b33b3b5e3",
+  "limitations": [
+    "Capture FPS counts successful OpenCV read completions, not sensor exposure timestamps.",
+    "Request wait before software first observes it is not directly timestamped; unmeasured.",
+    "No display photon latency measurement.",
+    "Only deployed integrated hardware configuration tested; no fabricated ablation switches."
+  ],
+  "hardware_sha256": {
+    "fengyan_v017_dpu.hwh": "8a556f2f1ee020932ee10352af887937f704d4637fa6ccd86d39adae191ccca8",
+    "fengyan_v017_dpu.xclbin": "1903a6ea9cb9f2e997210340a59d64ed46ad3d3cc9b24d78e937f0e57d0f678a",
+    "fengyan_v017_dpu.bit": "8a115a6f420529fcca1791a28978a63637991cb9f952aa56855cd5f2009b0440"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "board_directory": "/home/xilinx/recording_preflight_5691491670610",
+  "boot_id": "391a3e07-3eb0-4ec1-ae4c-a1f769972db3",
+  "window_seconds": 12.0050341,
+  "new_records": 17,
+  "parse_errors": [],
+  "source_bytes_before": 13282004,
+  "source_bytes_after": 13334318,
+  "board_write_read_verified": true,
+  "nonempty_detections": 0,
+  "note": "Read-only observation of existing application output; polling timestamps are not internal stage timestamps or display latency.",
+  "first_request": 4251,
+  "last_request": 4267,
+  "last_hdmi_phase": "STREAM_UP",
+  "pl_last": {
+    "status": 281,
+    "frames": 5461,
+    "error": 0,
+    "request_seq": 4267,
+    "request_state": 5,
+    "completed": 5461,
+    "dropped": 1194,
+    "stale_results": 0,
+    "aborted": 0,
+    "fusion": 0,
+    "profiler_timeouts": 0,
+    "profiler_flags": 0,
+    "recovery_reason": 0,
+    "recovery_timeouts": 0
+  },
+  "pl_delta": {
+    "completed": 16,
+    "dropped": 0,
+    "stale_results": 0,
+    "aborted": 0,
+    "profiler_timeouts": 0
+  },
+  "observed_record_rate": 1.4160726124051577,
+  "logged_seconds_mean": 0.34605347176468915
+}

@@ -1,0 +1,90 @@
+{
+  "source": "/project/runs/ultra_grouped_20261103/quant50/xmodel/DetectionModel_int.xmodel",
+  "source_md5": "3ab519ad17b99bc5e875634cee583263",
+  "architecture": {
+    "fingerprint": "0x101000016010407"
+  },
+  "selected_output_ops": [
+    "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_0__Conv2d_2__ret_297",
+    "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_1__Conv2d_2__ret_309",
+    "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_2__Conv2d_2__ret_321",
+    "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_0__Conv2d_2__ret_335",
+    "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_1__Conv2d_2__ret_347",
+    "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_2__Conv2d_2__ret_359"
+  ],
+  "dpu_fingerprints": [
+    "0x101000016010407"
+  ],
+  "fingerprint_matches_architecture": true,
+  "dpu_subgraph_count": 1,
+  "remaining_decode_ops": [],
+  "dpu_outputs": [
+    {
+      "name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_1__Conv_1__ReLU_act__17897_fix",
+      "shape": [
+        1,
+        40,
+        40,
+        64
+      ],
+      "fix_point": 4
+    },
+    {
+      "name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_0__Conv_1__ReLU_act__17569_fix",
+      "shape": [
+        1,
+        80,
+        80,
+        64
+      ],
+      "fix_point": 4
+    },
+    {
+      "name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_2__Conv_1__ReLU_act__17978_fix",
+      "shape": [
+        1,
+        20,
+        20,
+        64
+      ],
+      "fix_point": 4
+    },
+    {
+      "name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_2__Conv_1__ReLU_act__17731_fix",
+      "shape": [
+        1,
+        20,
+        20,
+        64
+      ],
+      "fix_point": 3
+    },
+    {
+      "name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_1__Conv_1__ReLU_act__17650_fix",
+      "shape": [
+        1,
+        40,
+        40,
+        64
+      ],
+      "fix_point": 3
+    },
+    {
+      "name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_0__Conv_1__ReLU_act__17816_fix",
+      "shape": [
+        1,
+        80,
+        80,
+        64
+      ],
+      "fix_point": 4
+    }
+  ],
+  "md5": "6a82891fa49dfac83137f44fddbf6c24",
+  "md5_matches_compiler": true,
+  "sha256": "765a836d815ef8c9ebf6bcfb1811303768ba7d518cee3679b2c59a1eee989922",
+  "board_validation": "NOT_RUN",
+  "accuracy_validation": "NOT_RUN",
+  "output_contract": "DPU tensors are intermediate features. Execute the six CPU final convolutions before DFL, sigmoid and NMS. Match by tensor name, not list index.",
+  "pc_structure_check": "PASS"
+}

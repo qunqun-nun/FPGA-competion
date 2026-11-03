@@ -1,0 +1,21 @@
+{
+  "source_report_sha256": null,
+  "tool_version": null,
+  "implementation_complete": null,
+  "wns_ns": null,
+  "tns_ns": null,
+  "unconstrained_paths": null,
+  "resources": {
+    "LUT": {
+      "used": null,
+      "available": null,
+      "max_ratio": 0.9
+    },
+    "BRAM": {
+      "used": null,
+      "available": null,
+      "max_ratio": 0.9
+    }
+  },
+  "clock_constraints_verified": null
+}

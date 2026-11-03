@@ -1,0 +1,16 @@
+[Unit]
+Description=Fengyan new-model USB camera PL DPU HDMI pipeline
+After=local-fs.target systemd-udev-trigger.service
+Conflicts=jupyter.service pynq-x11.service
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/xilinx/fengyan_v0173_model50_iicfix1_20261102
+ExecStart=/usr/local/sbin/fengyan-camera-start
+KillMode=control-group
+TimeoutStopSec=45
+Restart=no
+StandardOutput=journal
+StandardError=journal
+[Install]
+WantedBy=multi-user.target

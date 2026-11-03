@@ -1,0 +1,91 @@
+{
+  "python_version": "3.13.2",
+  "platform": "Windows",
+  "validation_scope": "PC CLI fixtures, document links and packaged real metric example; no board revalidation",
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "python_syntax_and_relative_document_links",
+      "status": "PASS",
+      "broken_links": []
+    },
+    {
+      "case": "manifest_valid",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "status": "PASS"
+    },
+    {
+      "case": "manifest_tamper_detected",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "manifest_missing_detected",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "manifest_escape_rejected",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "status": "PASS"
+    },
+    {
+      "case": "manifest_empty_rejected",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "status": "PASS"
+    },
+    {
+      "case": "groups_disjoint",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "status": "PASS"
+    },
+    {
+      "case": "source_overlap_detected",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "exact_cross_split_duplicate_detected",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "real_quant_metrics_pass_3pp",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "status": "PASS"
+    },
+    {
+      "case": "real_quant_metrics_fail_1pp",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "status": "PASS"
+    },
+    {
+      "case": "nonfinite_metrics_rejected",
+      "expected_exit": 2,
+      "actual_exit": 2,
+      "status": "PASS"
+    },
+    {
+      "case": "environment_stdlib_import",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "status": "PASS"
+    },
+    {
+      "case": "environment_missing_module_recorded",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "status": "PASS"
+    }
+  ]
+}

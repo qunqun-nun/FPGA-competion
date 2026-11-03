@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "counts": {
+    "train": 387,
+    "valid": 125,
+    "test": 90
+  },
+  "issues": [],
+  "scope": "declared source IDs and exact file bytes only; scene independence NOT_TESTED"
+}

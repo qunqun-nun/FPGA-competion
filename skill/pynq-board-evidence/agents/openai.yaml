@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYNQ 上板与证据交付"
+  short_description: "复用 PYNQ 上板、模型切换和性能采集经验，输出可核对的原始证据与报告"
+  default_prompt: "使用 $pynq-board-evidence 检查我的 PYNQ 工程，按实际支持的功能完成上板验证与证据整理。"

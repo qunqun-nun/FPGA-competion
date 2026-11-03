@@ -1,0 +1,9 @@
+{
+  "tasks": 130,
+  "capture_count": 1907,
+  "start_ns": 1316779734180,
+  "end_ns": 1400713801680,
+  "request_observed_ns": 1400381371020,
+  "request_ack_ns": 1400381457360,
+  "dpu_submit_ns": 1400468864620
+}

@@ -1,0 +1,11 @@
+{
+  "platform_type": "extensible",
+  "xsa_sha256": "3fd786a879c9f0ab669fc8d3ce5c4b50a1dc0295fde52e5ad9e48fea0efddeb2",
+  "scheduler_sources": {
+    "iprepo/ip_repo/pl_frame_scheduler_1_0/src/pl_frame_scheduler.sv": "2b0354ed8693019793b07c361ec2b7aa599de05e3ed0757a9c0597853c71eca3",
+    "prj/fengyan_pl.gen/sources_1/bd/design_1/ipshared/951b/src/pl_frame_scheduler.sv": "2b0354ed8693019793b07c361ec2b7aa599de05e3ed0757a9c0597853c71eca3"
+  },
+  "package_metadata_current": true,
+  "xpfm_hardware_matches": true,
+  "board_verified": false
+}

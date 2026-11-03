@@ -1,35 +1,12 @@
-name: Python checks
-
-on:
-  pull_request:
-  push:
-    branches: [ main ]
-
+name: Offline verification
+on: [push, pull_request]
 jobs:
-  python-checks:
+  checks:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-
-      - name: Install test dependencies
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install numpy pillow
-
-      - name: Compile runtime
-        run: python -m compileall runtime
-
-      - name: Run portable unit tests
-        run: |
-          python runtime/device_tree/test_prepare_boot_dtb.py
-
-      - name: Note skipped board-reference tests
-        run: |
-          echo "HDMI board-reference tests require pinned PYNQ/Xilinx reference trees omitted from this repository."
-
+      - run: python -m pip install numpy pillow
+      - run: python sim/run_checks.py

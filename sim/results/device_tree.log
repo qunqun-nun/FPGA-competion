@@ -1,0 +1,14 @@
+test_32_and_64bit_additions_preserve_hardware (__main__.BootDtbTests) ... ok
+test_actual_libfdt_tools (__main__.BootDtbTests) ... skipped 'actual fdtget/fdtput unavailable'
+test_bad_ranges_cells_overlay_and_truncation (__main__.BootDtbTests) ... ok
+test_existing_overlap_and_dynamic_and_memreserve_rejected (__main__.BootDtbTests) ... ok
+test_full_orchestration_with_fixture_tool_backend (__main__.BootDtbTests) ... ok
+test_larger_existing_region_reused_for_both (__main__.BootDtbTests) ... ok
+test_missing_tools_and_existing_output_leave_source_unchanged (__main__.BootDtbTests) ... ok
+test_partial_disabled_reusable_missing_nomap_conflicts (__main__.BootDtbTests) ... ok
+test_unrelated_hardware_modification_rejected (__main__.BootDtbTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.144s
+
+OK (skipped=1)

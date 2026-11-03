@@ -1,0 +1,22 @@
+# 技能验证记录
+
+验证日期：2026-11-03。本次仅构建并测试技能文件和离线工具，没有操作板卡或改动已运行的新模型。
+
+- skill-creator官方quick_validate.py：PASS，原始命令/退出码见validation/skill_validate.*。宿主Python有PyYAML，随工具运行时无PyYAML，因此校验器使用已有D:/Python解释器；交付工具自身不需要PyYAML。
+- 7项unittest全部通过：文件篡改/丢失、路径越界、容差/形状/NaN、最近秩P95/窗口、跨boot/负耗时/缺阶段/无预热/样本不足、资源超限/负WNS/未约束路径/缺项，以及stdout/stderr/退出7捕获。用合成夹具，不声称板端验证。
+- assets/metrics.json保持未知null，CLI返回2/BLOCKED；不会因模板存在就报时序通过。
+- 随包130条历史正规化任务数据复算：正式120、83.9340675秒、1.429693610404381 FPS，各阶段平均/P95与原汇总一致。原任务哈希与字段映射见references/evidence/provenance.json。
+- 全部Markdown本地链接目标存在；技能入口和agent元数据已检查。
+- ZIP逐文件SHA256和CRC校验通过；SHA256SUMS.json不包含自身。
+
+已验证的历史硬件经验只属于cases.md列出的ZCU104版本。未进行跨板测试、硬件重建、现场高速录像、独立标注精度评测或对照配置性能实验，不能宣称这些项目通过。回放历史数据不生成新的硬件测试结论。
+
+复现命令：
+
+```sh
+python -B -m unittest discover -s skill/pynq-board-evidence/scripts -p "test_*.py" -v
+python skill/pynq-board-evidence/scripts/evidence.py stats skill/pynq-board-evidence/references/evidence/historical_tasks.jsonl NEW_STATS.json
+python skill/pynq-board-evidence/scripts/evidence.py verify skill skill/SHA256SUMS.json
+```
+
+运行需使用相应当前Python路径；校验器的本机绝对路径仅出现在验证日志，技能本身没有运行时依赖该路径。

@@ -1,0 +1,108 @@
+{
+  "status": "NEW_MODEL_REAL_DPU_INFERENCE_PASS",
+  "model_sha256": "765a836d815ef8c9ebf6bcfb1811303768ba7d518cee3679b2c59a1eee989922",
+  "input_fix_point": 7,
+  "outputs": [
+    {
+      "name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_0__Conv_1__ReLU_act__17569_fix",
+      "shape": [
+        1,
+        80,
+        80,
+        64
+      ],
+      "fix_point": 4
+    },
+    {
+      "name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_1__Conv_1__ReLU_act__17650_fix",
+      "shape": [
+        1,
+        40,
+        40,
+        64
+      ],
+      "fix_point": 3
+    },
+    {
+      "name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_2__Conv_1__ReLU_act__17731_fix",
+      "shape": [
+        1,
+        20,
+        20,
+        64
+      ],
+      "fix_point": 3
+    },
+    {
+      "name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_0__Conv_1__ReLU_act__17816_fix",
+      "shape": [
+        1,
+        80,
+        80,
+        64
+      ],
+      "fix_point": 4
+    },
+    {
+      "name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_1__Conv_1__ReLU_act__17897_fix",
+      "shape": [
+        1,
+        40,
+        40,
+        64
+      ],
+      "fix_point": 4
+    },
+    {
+      "name": "DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_2__Conv_1__ReLU_act__17978_fix",
+      "shape": [
+        1,
+        20,
+        20,
+        64
+      ],
+      "fix_point": 4
+    }
+  ],
+  "clock": {
+    "time": 1666461451.422745,
+    "fclk0_mhz": 99.999,
+    "source": 0,
+    "div0": 15,
+    "div1": 1,
+    "active": true,
+    "registers": {
+      "0x20": "0x2d00",
+      "0x24": "0x7e672c6c",
+      "0x28": "0x0",
+      "0x30": "0x14500",
+      "0x34": "0x7e4b0c62",
+      "0x38": "0x80004de7",
+      "0x40": "0x1b",
+      "0xc0": "0x1010f00",
+      "0xc4": "0x1010f00",
+      "0xc8": "0x1010f00",
+      "0xcc": "0x1010f00"
+    },
+    "frequency_kind": "PYNQ register-derived; not oscilloscope measurement"
+  },
+  "runs": [
+    {
+      "iteration": 0,
+      "seconds": 0.33012351000002127,
+      "detections": []
+    },
+    {
+      "iteration": 1,
+      "seconds": 0.29740593000008175,
+      "detections": []
+    },
+    {
+      "iteration": 2,
+      "seconds": 0.29834501999994245,
+      "detections": []
+    }
+  ],
+  "hdmi_tested": false,
+  "accuracy_benchmark_run": false
+}

@@ -1,0 +1,372 @@
+{
+  "source_sha256": "cfc09de2f118be167cebaf455a3331e3119298392fe36d6ded7150f02ca0b4be",
+  "source_filename": "运行日志_FPS_精度_重启复测_20261103.zip",
+  "files": [
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/历史模型_64fde5e0/camera.exitcode",
+      "repository_path": "board/results/20261103/runtime_logs/historical_model_64fde5e0/camera.exitcode",
+      "sha256": "f5bde7eb9f6c71611dc5726e8aca3eb4eba3e386da49e0a4ed5c295a90a73a0d"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/历史模型_64fde5e0/camera.log",
+      "repository_path": "board/results/20261103/runtime_logs/historical_model_64fde5e0/camera.log",
+      "sha256": "1342336bbb9476e13d3d0846516ba07ffe53a94b1cfe4bc9e87ff3745d521c20"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/历史模型_64fde5e0/camera_restart.exitcode",
+      "repository_path": "board/results/20261103/runtime_logs/historical_model_64fde5e0/camera_restart.exitcode",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/历史模型_64fde5e0/camera_restart.log",
+      "repository_path": "board/results/20261103/runtime_logs/historical_model_64fde5e0/camera_restart.log",
+      "sha256": "3701289cdc39e933a7c66013a6e67fc5d80c0eb6cda0b6db54d5a3f584892258"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/历史模型_64fde5e0/restart_2.exitcode",
+      "repository_path": "board/results/20261103/runtime_logs/historical_model_64fde5e0/restart_2.exitcode",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/历史模型_64fde5e0/restart_2.log",
+      "repository_path": "board/results/20261103/runtime_logs/historical_model_64fde5e0/restart_2.log",
+      "sha256": "2ca6fd35931fb7c6440fe8f5081734db7b910c8cbdd489cb3e06308ac7e28e0a"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/历史模型_64fde5e0/restart_image.exitcode",
+      "repository_path": "board/results/20261103/runtime_logs/historical_model_64fde5e0/restart_image.exitcode",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/历史模型_64fde5e0/restart_image.log",
+      "repository_path": "board/results/20261103/runtime_logs/historical_model_64fde5e0/restart_image.log",
+      "sha256": "139c037cf8d1ac8a3803d0a2d7ddad7ab582ee69b64becec9b55693c5b005870"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/最新模型_765a836d/fengyan_v0173_grouped_20261103/results_grouped_180658/camera.exitcode",
+      "repository_path": "board/results/20261103/runtime_logs/latest_model_765a836d/fengyan_v0173_grouped_20261103/results_grouped_180658/camera.exitcode",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/最新模型_765a836d/fengyan_v0173_grouped_20261103/results_grouped_180658/camera.log",
+      "repository_path": "board/results/20261103/runtime_logs/latest_model_765a836d/fengyan_v0173_grouped_20261103/results_grouped_180658/camera.log",
+      "sha256": "4d70b3083bbbd49b583a225b04b228c72f5259cfd289188322d22b3273d6edb1"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/最新模型_765a836d/fengyan_v0173_grouped_20261103/state/new_model_validation.json",
+      "repository_path": "board/results/20261103/runtime_logs/latest_model_765a836d/fengyan_v0173_grouped_20261103/state/new_model_validation.json",
+      "sha256": "4b514cadbefbede0240d6ee458b36b2b93b1d2d87618bca81e95b49345ec6edd"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/最新模型_765a836d/grouped_model_20261103/service.log",
+      "repository_path": "board/results/20261103/runtime_logs/latest_model_765a836d/grouped_model_20261103/service.log",
+      "sha256": "3360abe5d08dfe01ba9ace8f61a4a11f24800965a588c5e567dc8c723143ae75"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/最新模型_765a836d/grouped_model_20261103/validate.log",
+      "repository_path": "board/results/20261103/runtime_logs/latest_model_765a836d/grouped_model_20261103/validate.log",
+      "sha256": "bf80f06ad43f3175c3c2bc1e0926286c633bae3236de3e166aead26530385097"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/最新模型_765a836d/串口原始记录_含传输和检查失败.log",
+      "repository_path": "board/results/20261103/runtime_logs/latest_model_765a836d/serial_raw_with_failures.log",
+      "sha256": "dde40050c4016ffb20acb0b2703bf75fe210cd7df2e247dc3fb9f480b1623159"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/最新模型_765a836d/命令/camera_commands.txt",
+      "repository_path": "board/results/20261103/runtime_logs/latest_model_765a836d/commands/camera_commands.txt",
+      "sha256": "68af4bfe46d56a944fa098fce1001d126d734b20bb7dee4f3cb687d8cbaf36f5"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/最新模型_765a836d/命令/final_status.txt",
+      "repository_path": "board/results/20261103/runtime_logs/latest_model_765a836d/commands/final_status.txt",
+      "sha256": "8ab14fd2918eac287d83773abfece21e8ad41ca9643ce75c9b660d5b01a8f01b"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/最新模型_765a836d/命令/restart.txt",
+      "repository_path": "board/results/20261103/runtime_logs/latest_model_765a836d/commands/restart.txt",
+      "sha256": "f7ac05b1d627c5fc2472d086c4565b4ee48ba47e5893618d993512aa8bb5c050"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/最新模型_765a836d/命令/serial_commands.log",
+      "repository_path": "board/results/20261103/runtime_logs/latest_model_765a836d/commands/serial_commands.log",
+      "sha256": "dd942e5aab25519372edb7ef9b5401cfb93da52c1f533f57ab46a50ef3edad98"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/01_运行日志/最新模型_765a836d/命令/switch_service.txt",
+      "repository_path": "board/results/20261103/runtime_logs/latest_model_765a836d/commands/switch_service.txt",
+      "sha256": "d03e8bbe7425e584d15e7a9645e0f3b7fddd7b80b1bfddf1e6451744c664dca5"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/FPS结果对照.csv",
+      "repository_path": "board/results/20261103/fps/record_dcbee5f3de04.csv",
+      "sha256": "26debca17e9d3ae86d321543039fc42a05a460f18b042805e531d77190981f68"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/历史模型_120次正式计时/host_commands.log",
+      "repository_path": "board/results/20261103/fps/historical_model_120_tasks/host_commands.log",
+      "sha256": "4126d77dea2c6bb621afa611b2bccf2342b5c9c47f14fc33720dd0f6a427449e"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/历史模型_120次正式计时/measure_pipeline.py",
+      "repository_path": "board/results/20261103/fps/historical_model_120_tasks/measure_pipeline.py",
+      "sha256": "01a0e6c7e722043ebba4356add923ab9e62a901911862761fb6b539b14cab457"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/历史模型_120次正式计时/summarize.py",
+      "repository_path": "board/results/20261103/fps/historical_model_120_tasks/summarize.py",
+      "sha256": "d73dc784a4c2808723542ba7bfb452bcf6a80ec7eca2de42ef820ccba3bed6fb"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/历史模型_120次正式计时/summary.json",
+      "repository_path": "board/results/20261103/fps/historical_model_120_tasks/summary.json",
+      "sha256": "7ee34689c2c517dbf88c30760e7467ab40edcff2f35d4a1944e96b538035fdd5"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/历史模型_120次正式计时/tasks.csv",
+      "repository_path": "board/results/20261103/fps/historical_model_120_tasks/tasks.csv",
+      "sha256": "210dfe0887d2fe7d18ed599102dcc996e7a7ee7dfc17b3577ea73197a6eb74d0"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/历史模型_120次正式计时/主要性能指标_实测报告_20261103.md",
+      "repository_path": "board/results/20261103/fps/historical_model_120_tasks/performance_report.md",
+      "sha256": "c266f0ae5314f428e921207261a435921741262081fcc069f9b828c05b98b031"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/历史模型_120次正式计时/原始数据/capture.json",
+      "repository_path": "board/results/20261103/fps/historical_model_120_tasks/raw/capture.json",
+      "sha256": "c802a1106048e41a0de0ff3eb9dfff31fa0a7e84bb47054e2ae4a22b80ac85ee"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/历史模型_120次正式计时/原始数据/console.log",
+      "repository_path": "board/results/20261103/fps/historical_model_120_tasks/raw/console.log",
+      "sha256": "71fd9d46cdc770a9e1296f80fa0e4d0294d272cd7ba83682c4b3f5e6f3eec188"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/历史模型_120次正式计时/原始数据/exitcode",
+      "repository_path": "board/results/20261103/fps/historical_model_120_tasks/raw/exitcode",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/历史模型_120次正式计时/原始数据/metadata.json",
+      "repository_path": "board/results/20261103/fps/historical_model_120_tasks/raw/metadata.json",
+      "sha256": "92cfe5b58095f981fc952dd4cea902eaaf5be0d8a7bc490d1e7342c2ee3b67c0"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/历史模型_120次正式计时/原始数据/pipeline_results.jsonl",
+      "repository_path": "board/results/20261103/fps/historical_model_120_tasks/raw/pipeline_results.jsonl",
+      "sha256": "0b96e489d689cb14fe104c9d55ff117f6fb073179bded6c5b05a681550c6d26b"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/历史模型_120次正式计时/原始数据/session.json",
+      "repository_path": "board/results/20261103/fps/historical_model_120_tasks/raw/session.json",
+      "sha256": "c34bf285d5d0ef971f2f8e890c41f9588d0455f9deafcf9c8859d65384597487"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/历史模型_120次正式计时/原始数据/tasks.jsonl",
+      "repository_path": "board/results/20261103/fps/historical_model_120_tasks/raw/tasks.jsonl",
+      "sha256": "7286f98ec615453a992398ebe1ead501e17bf3b331ed9c848166a1e6740950bd"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_12秒预观察/evidence.json",
+      "repository_path": "board/results/20261103/fps/latest_model_12s/evidence.json",
+      "sha256": "6782c48414477c046a409bcf41112fedeee81f2c336c0de419c3ed3c4a7dff31"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_12秒预观察/observed_results.jsonl",
+      "repository_path": "board/results/20261103/fps/latest_model_12s/observed_results.jsonl",
+      "sha256": "e7224280934f7063e53a78fe3bfa3c2273e68b78d2b465dd00622d46382942dd"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_12秒预观察/serial_commands.log",
+      "repository_path": "board/results/20261103/fps/latest_model_12s/serial_commands.log",
+      "sha256": "8f46fd73bc9c3cf869a84d4739ba0f4aefc6ab0882fb71186cf4e72ac84ca214"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_12秒预观察/serial_full.log",
+      "repository_path": "board/results/20261103/fps/latest_model_12s/serial_full.log",
+      "sha256": "1616bfaeb2781b39c80b72cd898e85f1cf9482c6d6d860b03a284f09cf3f427a"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_12秒预观察/summary.json",
+      "repository_path": "board/results/20261103/fps/latest_model_12s/summary.json",
+      "sha256": "d996b2f219aa2de4049fcb5a8640973b24447458997cd840572f78065aa7f08d"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_90秒现场采样/analyze.py",
+      "repository_path": "board/results/20261103/fps/latest_model_90s/analyze.py",
+      "sha256": "43565b49166a16fc1d8deeb5b9bb6b923ab4491e43e7bcf93325297e79771204"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_90秒现场采样/collect.py",
+      "repository_path": "board/results/20261103/fps/latest_model_90s/collect.py",
+      "sha256": "6be7202f38aefa78ba6a612080489c4601c307adcb63c0095564c0b000a48a85"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_90秒现场采样/evidence.json",
+      "repository_path": "board/results/20261103/fps/latest_model_90s/evidence.json",
+      "sha256": "972419085e772a20a80441c71e3ad4d74a2de34fb8a7e8484fb85783448fb4f1"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_90秒现场采样/metrics.json",
+      "repository_path": "board/results/20261103/fps/latest_model_90s/metrics.json",
+      "sha256": "f2ed4a7f412b05dad5ba5a42b750234ef25deefe6fdb43ac2cafaaf239e08c83"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_90秒现场采样/observed_results.jsonl",
+      "repository_path": "board/results/20261103/fps/latest_model_90s/observed_results.jsonl",
+      "sha256": "f51ac23728591e5350056659dbc974133b47c2c7e7317f6df0c98ff197c17b9f"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_90秒现场采样/results.csv",
+      "repository_path": "board/results/20261103/fps/latest_model_90s/results.csv",
+      "sha256": "2d3f35c889939f610c50ff732494e59c9de38ba68f86549ab068dddaa1cf1a97"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_90秒现场采样/serial_commands.log",
+      "repository_path": "board/results/20261103/fps/latest_model_90s/serial_commands.log",
+      "sha256": "3a42ec1155ec3f149ffdd3aa69d168f8e36c93e3fde2ccf1e92bfb8243cb3202"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_90秒现场采样/serial_full.log",
+      "repository_path": "board/results/20261103/fps/latest_model_90s/serial_full.log",
+      "sha256": "a71acf6a8f18f0da7f52a28bbd7b3f83d40e3969793380d4da6a8703a673d8b8"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_90秒现场采样/summary.json",
+      "repository_path": "board/results/20261103/fps/latest_model_90s/summary.json",
+      "sha256": "af7a02a54078e57b3517e22194b0ee5a833bb4257962ac689a448642dc35e58d"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_90秒现场采样/tracking_estimate.json",
+      "repository_path": "board/results/20261103/fps/latest_model_90s/tracking_estimate.json",
+      "sha256": "3d21bffb3ec8bd97deab75be49e09935823ff19bb1317f5b13711505f02e5c6c"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/02_FPS/新模型_90秒现场采样/采样结果.md",
+      "repository_path": "board/results/20261103/fps/latest_model_90s/sampling_report.md",
+      "sha256": "2b088e2c6674dd64211ffd522006cca435ae26859de74c9c468e33b03b489efc"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/03_精度/甲提供_最新模型FP32与INT8仿真/SHA256SUMS.json",
+      "repository_path": "board/results/20261103/accuracy/fp32_int8_simulation/sha256sums.json",
+      "sha256": "98a52f8c599eb115bc8efd4b674f4428d7e99402d25f52b1be61eec6cd8a2b6f"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/03_精度/甲提供_最新模型FP32与INT8仿真/audit.json",
+      "repository_path": "board/results/20261103/accuracy/fp32_int8_simulation/audit.json",
+      "sha256": "02bd5c82910262388e98a5760286b40ededeaadded1ddba7e84bcfc8b69aa5b6"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/03_精度/甲提供_最新模型FP32与INT8仿真/float_test.json",
+      "repository_path": "board/results/20261103/accuracy/fp32_int8_simulation/float_test.json",
+      "sha256": "652047632f95d8b73469f0d6888da467f65d953f38905bf041acdf56845a18b0"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/03_精度/甲提供_最新模型FP32与INT8仿真/map_comparison.json",
+      "repository_path": "board/results/20261103/accuracy/fp32_int8_simulation/map_comparison.json",
+      "sha256": "a58a75fa6a5a13a5932bc67d28ca4d16d1ff86d519c366ad36440710638413c2"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/03_精度/甲提供_最新模型FP32与INT8仿真/verification.json",
+      "repository_path": "board/results/20261103/accuracy/fp32_int8_simulation/verification.json",
+      "sha256": "5955a170bbfff2726edc6166267f0adb5ce91bc1a73a5b7216892f12dd4e66d7"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/03_精度/甲提供_最新模型FP32与INT8仿真/训练量化核对报告.md",
+      "repository_path": "board/results/20261103/accuracy/fp32_int8_simulation/training_quantization_report.md",
+      "sha256": "6759a24f2cea05b05cc9c9c60203ba26f982a97fdaebfb98c2081ea4cd036e12"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/03_精度/精度结果对照.csv",
+      "repository_path": "board/results/20261103/accuracy/record_90d083407ab3.csv",
+      "sha256": "21f0b079099c418bf3d47b399b29e810278f244c15b3e0f5ef272a39b45b4724"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/04_重启复测/历史修复版自启动与冷启动/autostart_reboot.log",
+      "repository_path": "board/results/20261103/reboot/historical_autostart_cold_boot/autostart_reboot.log",
+      "sha256": "1a840baab08c7b54128c95ce7bfacdad01ba423abb61b7f9c10d7bc91f67b166"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/04_重启复测/历史修复版自启动与冷启动/deploy_commands.txt",
+      "repository_path": "board/results/20261103/reboot/historical_autostart_cold_boot/deploy_commands.txt",
+      "sha256": "4661bd35a15d177c4ed578a26e1a9ce2c437f0fb8bfff7441f0c4d9652f3fb7d"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/04_重启复测/历史修复版自启动与冷启动/fengyan-camera-start",
+      "repository_path": "board/results/20261103/reboot/historical_autostart_cold_boot/fengyan-camera-start",
+      "sha256": "332f7088912357ef6ca1f9abb0b0a7deded0f10520a42cce90d5569fe6b04dc1"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/04_重启复测/历史修复版自启动与冷启动/fengyan-camera.service",
+      "repository_path": "board/results/20261103/reboot/historical_autostart_cold_boot/fengyan-camera.service",
+      "sha256": "40ed72de46274598f901ed836807f634b03f9d1674e034bdf485ff7ed407af12"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/04_重启复测/历史修复版自启动与冷启动/fix_env.txt",
+      "repository_path": "board/results/20261103/reboot/historical_autostart_cold_boot/fix_env.txt",
+      "sha256": "4bea7c3cf96516395cdb87d4a9aef26206b0fcfb2c6b97d5d2cc49c7aba5a69b"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/04_重启复测/历史修复版自启动与冷启动/fix_services.txt",
+      "repository_path": "board/results/20261103/reboot/historical_autostart_cold_boot/fix_services.txt",
+      "sha256": "2a6d234daff3691a452f2b0839c4b2b9c402c62f11cf5c77f59dc2403a572ad6"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/04_重启复测/历史修复版自启动与冷启动/poweroff.log",
+      "repository_path": "board/results/20261103/reboot/historical_autostart_cold_boot/poweroff.log",
+      "sha256": "820e7e70104aefd68213d0af98507e3f32df34e58014db8bb4acf3c763f8d5e4"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/04_重启复测/历史修复版自启动与冷启动/save_final.txt",
+      "repository_path": "board/results/20261103/reboot/historical_autostart_cold_boot/save_final.txt",
+      "sha256": "d82ede18a7e7e208718bfc7f5ee4ef9728015ee675fe48a756ed8840a3f7a241"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/04_重启复测/历史修复版自启动与冷启动/uEnv.txt",
+      "repository_path": "board/results/20261103/reboot/historical_autostart_cold_boot/uenv.txt",
+      "sha256": "071234881e4145513b454ebd6b7d55a67df376de956268b1ea91ca41b0fc413a"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/04_重启复测/历史修复版自启动与冷启动/独立启动配置与回退说明.md",
+      "repository_path": "board/results/20261103/reboot/historical_autostart_cold_boot/autostart_and_rollback.md",
+      "sha256": "48ab6975737e2f94a031a062d5630561b09e685286474cf5f4a26b8838201047"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/04_重启复测/早期版本冷启动失败/cold_boot.log",
+      "repository_path": "board/results/20261103/reboot/early_cold_boot_failure/cold_boot.log",
+      "sha256": "74a818344ecf7c172923f7b1d20622bb63d5c72a0864efa1dd23adb0e7880f41"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/04_重启复测/早期版本冷启动失败/cold_boot_events.jsonl",
+      "repository_path": "board/results/20261103/reboot/early_cold_boot_failure/cold_boot_events.jsonl",
+      "sha256": "823fbb54e20585f19988a5582f469a1b2dc9545852fb18a67daf4cfe5872a1eb"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/04_重启复测/早期版本冷启动失败/stage4_summary.json",
+      "repository_path": "board/results/20261103/reboot/early_cold_boot_failure/stage4_summary.json",
+      "sha256": "f4d91fc0659a75289a8b7c96f0f298a4d2379012f5d109223820a23df908fdd1"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/04_重启复测/现场反馈与版本边界.md",
+      "repository_path": "board/results/20261103/reboot/onsite_feedback_and_versions.md",
+      "sha256": "1570d9df6eafcda43e042ed12824f0fa333c4b6a9e6320536eaaa3824d399b0d"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/README_先读.md",
+      "repository_path": "board/results/20261103/README.md",
+      "sha256": "d7dc8f2ec40a29988f54b97f5490f7c5aa35f2fac7043a474f3569ad26771b97"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/SHA256SUMS.json",
+      "repository_path": "board/results/20261103/sha256sums.json",
+      "sha256": "3ebd01b341e23692ea8f60ccc9b8653a3ff62bb3013898426ecdf7ae07ad2891"
+    },
+    {
+      "archive_path": "运行日志_FPS_精度_重启复测_20261103/来源索引.json",
+      "repository_path": "board/results/20261103/source_index.json",
+      "sha256": "18578b637fe50f1ef7c55c3defaea1048f41167b9021f7c7f81fe3f69d042386"
+    }
+  ],
+  "verified_manifest_entries": 72
+}

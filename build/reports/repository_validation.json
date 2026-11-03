@@ -1,0 +1,12 @@
+{
+  "hardware_sha256": {
+    "fengyan_v017_dpu.bit": "8a115a6f420529fcca1791a28978a63637991cb9f952aa56855cd5f2009b0440",
+    "fengyan_v017_dpu.hwh": "8a556f2f1ee020932ee10352af887937f704d4637fa6ccd86d39adae191ccca8",
+    "fengyan_v017_dpu.xclbin": "1903a6ea9cb9f2e997210340a59d64ed46ad3d3cc9b24d78e937f0e57d0f678a",
+    "fengyan_v017_final.xsa": "4a8a60a4bf5847cddcbc304f32f2615fd2478b78de2a285330051e01996fb11a"
+  },
+  "xsa_bit_hwh_match": true,
+  "model_md5": "b54dc98912c20ff70b07e0201b97be3e",
+  "invalid_names": [],
+  "board_verified": false
+}

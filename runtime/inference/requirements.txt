@@ -1,2 +1,0 @@
-numpy>=1.20
-# On the target board only: install the hardware-matched AMD xir/vart runtime.

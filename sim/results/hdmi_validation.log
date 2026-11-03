@@ -1,0 +1,17 @@
+test_actual_board_addresses_and_no_rx_configuration (__main__.BoardTests) ... ok
+test_all_ff_short_unstable_and_wrong_address (__main__.BoardTests) ... ok
+test_dp_action_and_dynamic_bits_are_separate (__main__.BoardTests) ... ok
+test_dp_stable_field_failure_still_rejected (__main__.BoardTests) ... ok
+test_edid_cta_vic_and_raw_evidence (__main__.BoardTests) ... ok
+test_edid_dtd_without_extension (__main__.BoardTests) ... ok
+test_edid_extra_extensions_are_explicitly_unread (__main__.BoardTests) ... ok
+test_edid_invalid_header_checksum_missing_extension_and_no_mode (__main__.BoardTests) ... ok
+test_observed_block_and_each_corrupted_byte (__main__.BoardTests) ... ok
+test_pio_read_offsets_and_reset_context (__main__.BoardTests) ... ok
+test_real_dp_driver_uses_tx_only_and_toggles_on_mode_change (__main__.BoardTests) ... ok
+test_real_set_clock_then_reprobe_and_reinitialize (__main__.BoardTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.206s
+
+OK

@@ -1,0 +1,1 @@
+sudo -n systemctl restart fengyan-camera.service && systemctl is-active fengyan-camera.service

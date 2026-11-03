@@ -1,0 +1,7 @@
+/*fengyan_v017_zcu104*/
+the_ROM_image:
+{
+  [bootloader, destination_cpu=a53-0]<fengyan_v017_zcu104/boot/fsbl.elf>
+  [pmufw_image]<fengyan_v017_zcu104/boot/pmufw.elf>
+  [destination_device=pl] <bitstream>
+}

@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-11-03T17:33:48.444075",
+  "results": [
+    {
+      "name": "runtime",
+      "exit_code": 0,
+      "tests": 61,
+      "skipped": 0
+    },
+    {
+      "name": "device_tree",
+      "exit_code": 0,
+      "tests": 9,
+      "skipped": 1
+    },
+    {
+      "name": "hdmi_iic",
+      "exit_code": 0,
+      "tests": 8,
+      "skipped": 0
+    },
+    {
+      "name": "hdmi_validation",
+      "exit_code": 0,
+      "tests": 12,
+      "skipped": 0
+    },
+    {
+      "name": "axi_control",
+      "exit_code": 0,
+      "pass_marker": true,
+      "fatal_message": false
+    },
+    {
+      "name": "dummy_video",
+      "exit_code": 0,
+      "pass_marker": true,
+      "fatal_message": false
+    },
+    {
+      "name": "video_integration",
+      "exit_code": 0,
+      "pass_marker": true,
+      "fatal_message": false
+    }
+  ],
+  "passed": true,
+  "board_verified": false,
+  "rtl_requested": true
+}

@@ -1,9 +1,0 @@
-{
-  "status": "OFFLINE_REPLAY_CLI_PASS",
-  "fixture": "synthetic_zero_features.npz",
-  "synthetic_only": true,
-  "result": {
-    "detections": [],
-    "validation": "OFFLINE_REPLAY_ONLY_NOT_ACCURACY_VALIDATION"
-  }
-}

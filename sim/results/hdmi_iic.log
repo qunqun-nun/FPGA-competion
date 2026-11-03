@@ -1,0 +1,13 @@
+test_configuration_corruption_and_output_disabled_rejected (__main__.IicTests) ... ok
+test_idt_all_ff_with_working_dp_is_rejected_by_configuration_readback (__main__.IicTests) ... ok
+test_real_official_config_changes_id_to_ffff_and_second_init_works (__main__.IicTests) ... ok
+test_real_official_set_clock_and_readback_for_720p (__main__.IicTests) ... ok
+test_send_exception_has_no_hidden_retry (__main__.IicTests) ... ok
+test_shared_bus_all_ff_and_unexpected_device_rejected (__main__.IicTests) ... ok
+test_short_receive_rejected_and_logged (__main__.IicTests) ... ok
+test_short_send_rejected_and_logged (__main__.IicTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.405s
+
+OK

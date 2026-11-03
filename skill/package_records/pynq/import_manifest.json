@@ -1,0 +1,157 @@
+{
+  "source_sha256": "f48dd7b9d14f094f19c3a89e9fd4602b404e19d0427002c3ef5ef65013e3e033",
+  "source_filename": "PYNQ技能包_3.3.5.2_20261103.zip",
+  "files": [
+    {
+      "archive_path": "skill/README.md",
+      "repository_path": "skill/package_records/pynq/readme.txt",
+      "sha256": "4e2804eaf5d240fce345a47d33642aecd62115620cd8607b5296940caa632698"
+    },
+    {
+      "archive_path": "skill/SHA256SUMS.json",
+      "repository_path": "skill/package_records/pynq/sha256sums.json",
+      "sha256": "e6a6e05429bba1d5a59dfb19cc2a1a020b073cf4439fdea6a63a5bd414612a08"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/SKILL.md",
+      "repository_path": "skill/pynq-board-evidence/SKILL.md",
+      "sha256": "c78189e0561966c802aa0d542ea6bd72ed04e4bccc9f25f6f7e622fc2de7b37a"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/agents/openai.yaml",
+      "repository_path": "skill/pynq-board-evidence/agents/openai.yaml",
+      "sha256": "6edbfc301b36d6e16d5565addb185459312a9756b16658f217dd300f305b36e4"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/assets/board-profile.json",
+      "repository_path": "skill/pynq-board-evidence/assets/board-profile.json",
+      "sha256": "af16c60c86c3f743912f8227a46829ab4c70058837a852e3ab57bf0f4b4087e9"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/assets/metrics.json",
+      "repository_path": "skill/pynq-board-evidence/assets/metrics.json",
+      "sha256": "5102744b3be051cfe1929d4e8cd8fd6bb626386fa98846d811fad0acc9983f12"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/assets/report.md",
+      "repository_path": "skill/pynq-board-evidence/assets/report.md",
+      "sha256": "79bb4b67283540d4c47a72713a5e4b9fac25ac6fc232c3639794ae405d95b7e7"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/references/cases.md",
+      "repository_path": "skill/pynq-board-evidence/references/cases.md",
+      "sha256": "e8872cf8b4a58aa6c1ff054c2d2284db4f359f90a5e34431660c645de1662f05"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/references/evidence/historical_summary.json",
+      "repository_path": "skill/pynq-board-evidence/references/evidence/historical_summary.json",
+      "sha256": "7ee34689c2c517dbf88c30760e7467ab40edcff2f35d4a1944e96b538035fdd5"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/references/evidence/historical_tasks.jsonl",
+      "repository_path": "skill/pynq-board-evidence/references/evidence/historical_tasks.jsonl",
+      "sha256": "e71fe8c5205f95b0eb1b055a481e6944ad9fe635930fcc4fd6db11357eeccf23"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/references/evidence/provenance.json",
+      "repository_path": "skill/pynq-board-evidence/references/evidence/provenance.json",
+      "sha256": "ddb7e8ec964e69a2b0e587d9f426315386f5b4b309a2695fbf1489e653df7106"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/references/evidence/recomputed_summary.json",
+      "repository_path": "skill/pynq-board-evidence/references/evidence/recomputed_summary.json",
+      "sha256": "e376df2cbe056188c1857449e07a60292bf9fb59e0e7ec72a6aa4f994f5b24c3"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/references/measurement.md",
+      "repository_path": "skill/pynq-board-evidence/references/measurement.md",
+      "sha256": "889b7ee5250ac75f048a5cd0ae8dc10205b0a56f1ff51b18b99ad90f2df9802c"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/references/pitfalls.md",
+      "repository_path": "skill/pynq-board-evidence/references/pitfalls.md",
+      "sha256": "c0bcfa924f19cd62379393a0851899dee71e3af97307ea82393ad5f1a58b7a9e"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/references/prompts.md",
+      "repository_path": "skill/pynq-board-evidence/references/prompts.md",
+      "sha256": "a35cb3980d30fbf5cd2c7c370b7d51daa5556913cd428e213debc9855cdddf76"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/references/tools.md",
+      "repository_path": "skill/pynq-board-evidence/references/tools.md",
+      "sha256": "555aa2c4d274f6cf36d8aaa4e317a168fc5be39bb87353fe6863585212d39b7b"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/references/workflows.md",
+      "repository_path": "skill/pynq-board-evidence/references/workflows.md",
+      "sha256": "863a21bb5777619d8d6913c221b62dd7cbade8e7fc58b911d831487a053de303"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/scripts/evidence.py",
+      "repository_path": "skill/pynq-board-evidence/scripts/evidence.py",
+      "sha256": "124437997ea5f883e6244ea92db9f61258960b1584320c8a5a60be22ea7fe78e"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/scripts/run_logged.py",
+      "repository_path": "skill/pynq-board-evidence/scripts/run_logged.py",
+      "sha256": "569f62c2442bac2fa43d0aa075193a104eccce952d431f2e16162b3cb7581481"
+    },
+    {
+      "archive_path": "skill/pynq-board-evidence/scripts/test_evidence.py",
+      "repository_path": "skill/pynq-board-evidence/scripts/test_evidence.py",
+      "sha256": "a0bb648291ce0c15baa91bb436a60336430149691be40545e610bd8e4a5c3456"
+    },
+    {
+      "archive_path": "skill/validation.md",
+      "repository_path": "skill/package_records/pynq/validation.txt",
+      "sha256": "be4f5dbc0717ab1da8a18b5159493116bc74ddab426a7fb4577778d7ec68be3a"
+    },
+    {
+      "archive_path": "skill/validation/limits_missing.command.json",
+      "repository_path": "skill/validation/limits_missing.command.json",
+      "sha256": "5b2518db41647b7ea7e8eb5a982722bc3c8056d353582f7782984cc87df12c48"
+    },
+    {
+      "archive_path": "skill/validation/limits_missing.stderr.log",
+      "repository_path": "skill/validation/limits_missing.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "skill/validation/limits_missing.stdout.log",
+      "repository_path": "skill/validation/limits_missing.stdout.log",
+      "sha256": "c614034aee916b8ea7a0807d11b35562dadef57a9b254d52c1deef3767dff7ee"
+    },
+    {
+      "archive_path": "skill/validation/skill_validate.command.json",
+      "repository_path": "skill/validation/skill_validate.command.json",
+      "sha256": "cc3daeb2628c1ea1bc03af420bf4ed239fd31e929da2f2838d1f9463576724b1"
+    },
+    {
+      "archive_path": "skill/validation/skill_validate.stderr.log",
+      "repository_path": "skill/validation/skill_validate.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "archive_path": "skill/validation/skill_validate.stdout.log",
+      "repository_path": "skill/validation/skill_validate.stdout.log",
+      "sha256": "6cf9e7f0d34ccd36dbd28f270cd28dd04277b2e1516bd4333ce7bb501d7b18d4"
+    },
+    {
+      "archive_path": "skill/validation/unittest.command.json",
+      "repository_path": "skill/validation/unittest.command.json",
+      "sha256": "d77a2c14ec34186ecafb1c5c3cb449b7c93443f394cc3b35aaedec1b98a674a2"
+    },
+    {
+      "archive_path": "skill/validation/unittest.stderr.log",
+      "repository_path": "skill/validation/unittest.stderr.log",
+      "sha256": "2290d3ae9d7d62ac107d688ed299f93727898ce073aeee08c35e64992ea85c5c"
+    },
+    {
+      "archive_path": "skill/validation/unittest.stdout.log",
+      "repository_path": "skill/validation/unittest.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "verified_manifest_entries": 29
+}

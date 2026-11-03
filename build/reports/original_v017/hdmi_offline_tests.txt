@@ -1,0 +1,18 @@
+test_actual_hwh_const1_required_and_zero_rejected (pynq_test_hdmi.HdmiCandidateTests) ... ok
+test_event_order_observes_down_before_pumping_up (pynq_test_hdmi.HdmiCandidateTests) ... ok
+test_kernel_ownership_by_resource_not_only_name (pynq_test_hdmi.HdmiCandidateTests) ... ok
+test_macro_aliases_fixed_and_incomplete_header_refused (pynq_test_hdmi.HdmiCandidateTests) ... ok
+test_metadata_wrong_address_size_version_rejected (pynq_test_hdmi.HdmiCandidateTests) ... ok
+test_missing_hpd_deadline_is_failure (pynq_test_hdmi.HdmiCandidateTests) ... ok
+test_native_binary_receipt_and_tamper_rejection (pynq_test_hdmi.HdmiCandidateTests) ... ok
+test_native_source_closure_hashes_and_glibc_baseline (pynq_test_hdmi.HdmiCandidateTests) ... ok
+test_platform_rejection_has_no_hardware_side_effects (pynq_test_hdmi.HdmiCandidateTests) ... ok
+test_real_process_watchdog_can_terminate_stalled_worker (pynq_test_hdmi.HdmiCandidateTests) ... ok
+test_stock_rx_nidru_mismatch_and_reset_only_change (pynq_test_hdmi.HdmiCandidateTests) ... ok
+test_worker_error_is_explicit (pynq_test_hdmi.HdmiCandidateTests) ... ok
+test_worker_timeout_marks_unknown_not_pass (pynq_test_hdmi.HdmiCandidateTests) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.525s
+
+OK

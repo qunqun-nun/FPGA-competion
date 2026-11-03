@@ -1,0 +1,247 @@
+{
+  "result": "COLD_IMAGE17_MEMORY_CLOCK_PASS_PIPELINE_FAIL",
+  "boot_id": "3ecd5e8a-9898-40d9-ae96-618b1afbe3c0",
+  "operator_power_cycle_confirmed": true,
+  "boot_image_selection": "manual image17.ub via U-Boot fatload and RAM boot",
+  "exitcodes": {
+    "clock": 0,
+    "cold_pipeline": 1,
+    "environment": 0,
+    "reserved": 0,
+    "stop_services": 0,
+    "verify": 0
+  },
+  "failure_journal_tail": [
+    {
+      "address": 108,
+      "data": [
+        0
+      ],
+      "event": "register_read",
+      "monotonic": 224.47958192,
+      "register": 92
+    },
+    {
+      "address": 108,
+      "bytes": [
+        0,
+        93
+      ],
+      "event": "iic_begin",
+      "length": 2,
+      "monotonic": 224.47977748,
+      "operation": "send",
+      "option": 1,
+      "registers": {
+        "cr": 0,
+        "iisr": 212,
+        "rx_fifo_occupancy": 0,
+        "sr": 192,
+        "tx_fifo_occupancy": 0
+      }
+    },
+    {
+      "address": 108,
+      "bytes": [
+        0,
+        93
+      ],
+      "count": 2,
+      "data": [
+        0,
+        93
+      ],
+      "event": "iic_end",
+      "length": 2,
+      "monotonic": 224.48025618,
+      "operation": "send",
+      "option": 1,
+      "registers": {
+        "cr": 45,
+        "iisr": 196,
+        "rx_fifo_occupancy": 0,
+        "sr": 196,
+        "tx_fifo_occupancy": 0
+      }
+    },
+    {
+      "address": 108,
+      "event": "iic_begin",
+      "length": 1,
+      "monotonic": 224.48045213,
+      "operation": "receive",
+      "option": 0,
+      "registers": {
+        "cr": 45,
+        "iisr": 196,
+        "rx_fifo_occupancy": 0,
+        "sr": 196,
+        "tx_fifo_occupancy": 0
+      }
+    },
+    {
+      "address": 108,
+      "count": 1,
+      "data": [
+        0
+      ],
+      "event": "iic_end",
+      "length": 1,
+      "monotonic": 224.48084744,
+      "operation": "receive",
+      "option": 0,
+      "registers": {
+        "cr": 0,
+        "iisr": 212,
+        "rx_fifo_occupancy": 0,
+        "sr": 192,
+        "tx_fifo_occupancy": 0
+      }
+    },
+    {
+      "event": "wait_begin",
+      "monotonic": 224.48102296,
+      "registers": {
+        "cr": 0,
+        "iisr": 212,
+        "rx_fifo_occupancy": 0,
+        "sr": 192,
+        "tx_fifo_occupancy": 0
+      }
+    },
+    {
+      "event": "wait_end",
+      "monotonic": 224.48118304,
+      "registers": {
+        "cr": 0,
+        "iisr": 212,
+        "rx_fifo_occupancy": 0,
+        "sr": 192,
+        "tx_fifo_occupancy": 0
+      }
+    },
+    {
+      "address": 108,
+      "data": [
+        0
+      ],
+      "event": "register_read",
+      "monotonic": 224.48129436,
+      "register": 93
+    },
+    {
+      "address": 108,
+      "bytes": [
+        0,
+        94
+      ],
+      "event": "iic_begin",
+      "length": 2,
+      "monotonic": 224.4814885,
+      "operation": "send",
+      "option": 1,
+      "registers": {
+        "cr": 0,
+        "iisr": 212,
+        "rx_fifo_occupancy": 0,
+        "sr": 192,
+        "tx_fifo_occupancy": 0
+      }
+    },
+    {
+      "address": 108,
+      "bytes": [
+        0,
+        94
+      ],
+      "error": "Short IIC send: address=0x6c expected=2 actual=1",
+      "event": "iic_error",
+      "length": 2,
+      "monotonic": 224.48190299,
+      "operation": "send",
+      "option": 1,
+      "registers": {
+        "cr": 9,
+        "iisr": 214,
+        "rx_fifo_occupancy": 0,
+        "sr": 192,
+        "tx_fifo_occupancy": 0
+      }
+    },
+    {
+      "error": "IicError: Short IIC send: address=0x6c expected=2 actual=1",
+      "event": "session_error",
+      "monotonic": 224.48205482
+    },
+    {
+      "event": "stage",
+      "monotonic": 224.48214284,
+      "stage": "FAILURE_CLEANUP"
+    }
+  ],
+  "failure_stages": [
+    {
+      "event": "stage",
+      "monotonic": 220.24599895,
+      "stage": "PYNQ_ABI"
+    },
+    {
+      "event": "stage",
+      "monotonic": 220.27067281,
+      "stage": "PL_CLOCK"
+    },
+    {
+      "event": "stage",
+      "monotonic": 220.28760921,
+      "stage": "TX_5E_IDT_TWO_BLOCKS_NO_CONFIGURATION_WRITE"
+    },
+    {
+      "event": "stage",
+      "monotonic": 220.31320787,
+      "stage": "PHY_AND_TX_BIND"
+    },
+    {
+      "event": "stage",
+      "monotonic": 220.31872328,
+      "stage": "OFFICIAL_IDT_SYNTH_CONFIG"
+    },
+    {
+      "event": "stage",
+      "monotonic": 220.49687323,
+      "stage": "IDT_INITIAL_CONFIG_READBACK"
+    },
+    {
+      "event": "stage",
+      "monotonic": 224.30637817,
+      "stage": "HPD_CONNECT"
+    },
+    {
+      "event": "stage",
+      "monotonic": 224.30814263,
+      "stage": "EDID_READ_AND_VALIDATE"
+    },
+    {
+      "event": "stage",
+      "monotonic": 224.34894709,
+      "stage": "SET_FORMAT_720P60"
+    },
+    {
+      "event": "stage",
+      "monotonic": 224.34943056,
+      "stage": "EXTERNAL_CLOCKS"
+    },
+    {
+      "event": "stage",
+      "monotonic": 224.42261488,
+      "stage": "CLOCK_REGISTER_READBACK"
+    },
+    {
+      "event": "stage",
+      "monotonic": 224.48214284,
+      "stage": "FAILURE_CLEANUP"
+    }
+  ],
+  "clock_mhz": [
+    99.999
+  ]
+}

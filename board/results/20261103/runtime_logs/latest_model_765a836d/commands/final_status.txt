@@ -1,0 +1,1 @@
+export SYSTEMD_PAGER=cat; systemctl is-enabled fengyan-camera.service; systemctl is-active fengyan-camera.service; journalctl -b -u fengyan-camera.service --no-pager -n 4 | cut -c 1-900; sha256sum models/tank_yolov8n_relu_latest_six_outputs.xmodel; cat /etc/vart.conf

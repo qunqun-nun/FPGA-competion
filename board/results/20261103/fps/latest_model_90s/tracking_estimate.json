@@ -1,0 +1,50 @@
+{
+  "estimate_kind": "Frame processing rate in long intervals between DPU results consistent with tracking gating; not verified valid SAD output FPS",
+  "windows": [
+    {
+      "start_request": 4401,
+      "end_request": 4402,
+      "seconds": 6.86483364,
+      "completed_frame_delta": 11,
+      "fps": 1.6023694931083574
+    },
+    {
+      "start_request": 4402,
+      "end_request": 4403,
+      "seconds": 9.37833555,
+      "completed_frame_delta": 15,
+      "fps": 1.599430935268679
+    },
+    {
+      "start_request": 4403,
+      "end_request": 4404,
+      "seconds": 8.04555223,
+      "completed_frame_delta": 13,
+      "fps": 1.61579959067645
+    },
+    {
+      "start_request": 4404,
+      "end_request": 4405,
+      "seconds": 9.52918765,
+      "completed_frame_delta": 15,
+      "fps": 1.5741110943491599
+    },
+    {
+      "start_request": 4406,
+      "end_request": 4407,
+      "seconds": 9.37751547,
+      "completed_frame_delta": 15,
+      "fps": 1.599570808279349
+    }
+  ],
+  "frames": 69,
+  "seconds": 43.19542454,
+  "approx_pipeline_fps": 1.5973914074187268,
+  "assumed_non_dpu_intermediate_frame_rate": 1.4816384068811377,
+  "limitations": [
+    "No per-frame track-valid output counter",
+    "completed frames may include initialization or lost tracking",
+    "Observed timestamps include logging/poll delay",
+    "Current configured input request ceiling 5 FPS"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "board": null,
+  "pcb_revision": null,
+  "connection": {
+    "kind": null,
+    "device": null
+  },
+  "project_root": null,
+  "python": null,
+  "os_pynq_version": null,
+  "hardware_files": {},
+  "expected_clocks_hz": {},
+  "memory_policy": {
+    "kind": null,
+    "regions": []
+  },
+  "model": {
+    "sha256": null,
+    "dpu_fingerprint": null,
+    "input_shape": null,
+    "input_fix_point": null,
+    "outputs": [],
+    "cpu_head_spec_sha256": null
+  },
+  "input": {
+    "size": null,
+    "source": null,
+    "ground_truth": null,
+    "training_overlap": null
+  },
+  "thresholds": {},
+  "independent_switches": {},
+  "authorized_operations": []
+}

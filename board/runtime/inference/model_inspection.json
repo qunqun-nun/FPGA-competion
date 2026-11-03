@@ -1,0 +1,125 @@
+{
+  "model_sha256": "9f6302986694ead804ae7542d7c39fbbb49cef5e9a28fa8419dc7e060a52568b",
+  "model_bytes": 3931518,
+  "op_count": 263,
+  "input": {
+    "name": "DetectionModel__input_0_fix_upload_0",
+    "shape": [
+      1,
+      640,
+      640,
+      3
+    ],
+    "attrs": {
+      "stride": [
+        1228800,
+        1920,
+        3,
+        1
+      ],
+      "location": 1,
+      "ddr_addr": 1936,
+      "if_signed": true,
+      "fix_point": 6,
+      "reg_id": 2,
+      "bit_width": 8,
+      "round_mode": "DPU_ROUND"
+    }
+  },
+  "subgraphs": [
+    {
+      "name": "subgraph_DetectionModel__input_0",
+      "device": "USER",
+      "member_op_types": [
+        "data-fix"
+      ]
+    },
+    {
+      "name": "subgraph_DetectionModel__DetectionModel_C2f_model__C2f_12__Bottleneck_m__ModuleList_0__Conv_cv1__Conv2d_conv__ret_181",
+      "device": "DPU",
+      "member_op_types": []
+    },
+    {
+      "name": "subgraph_DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_2__Conv2d_2__ret_359",
+      "device": "CPU",
+      "member_op_types": [
+        "const",
+        "fix",
+        "const",
+        "fix",
+        "fix2float",
+        "conv2d"
+      ]
+    },
+    {
+      "name": "subgraph_DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_1__Conv2d_2__ret_347",
+      "device": "CPU",
+      "member_op_types": [
+        "const",
+        "fix",
+        "const",
+        "fix",
+        "fix2float",
+        "conv2d"
+      ]
+    },
+    {
+      "name": "subgraph_DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv3__ModuleList_0__Conv2d_2__ret_335",
+      "device": "CPU",
+      "member_op_types": [
+        "const",
+        "fix",
+        "const",
+        "fix",
+        "fix2float",
+        "conv2d"
+      ]
+    },
+    {
+      "name": "subgraph_DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_2__Conv2d_2__ret_321",
+      "device": "CPU",
+      "member_op_types": [
+        "const",
+        "fix",
+        "const",
+        "fix",
+        "fix2float",
+        "conv2d"
+      ]
+    },
+    {
+      "name": "subgraph_DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_1__Conv2d_2__ret_309",
+      "device": "CPU",
+      "member_op_types": [
+        "const",
+        "fix",
+        "const",
+        "fix",
+        "fix2float",
+        "conv2d"
+      ]
+    },
+    {
+      "name": "subgraph_DetectionModel__DetectionModel_Detect_model__Detect_22__Sequential_cv2__ModuleList_0__Conv2d_2__ret_297",
+      "device": "CPU",
+      "member_op_types": [
+        "const",
+        "fix",
+        "const",
+        "fix",
+        "fix2float",
+        "conv2d"
+      ]
+    }
+  ],
+  "six_cpu_contracts_verified": true,
+  "reg_max": 16,
+  "num_classes": 1,
+  "strides": [
+    8,
+    16,
+    32
+  ],
+  "decode_structure_basis": "six output shapes + Ultralytics YOLOv8 DFL convention",
+  "status": "STATIC_INSPECTION_ONLY_BOARD_VALIDATION_PENDING"
+}

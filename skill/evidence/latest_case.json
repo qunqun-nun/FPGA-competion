@@ -1,0 +1,33 @@
+{
+  "case_date": "2026-11-03",
+  "dataset_counts": {"train": 387, "valid": 125, "test": 90},
+  "split": "source_video_grouped",
+  "epochs_completed": 50,
+  "best_validation_epoch": 7,
+  "calibration_images": 387,
+  "fp32": {
+    "metrics/precision(B)": 0.9765843078385822,
+    "metrics/recall(B)": 0.6111111111111112,
+    "metrics/mAP50(B)": 0.767781596182423,
+    "metrics/mAP50-95(B)": 0.6286164856842179
+  },
+  "int8_cpu": {
+    "metrics/precision(B)": 0.9681023910715543,
+    "metrics/recall(B)": 0.6111111111111112,
+    "metrics/mAP50(B)": 0.7475269474624229,
+    "metrics/mAP50-95(B)": 0.6119369673772992
+  },
+  "compiled": {
+    "md5": "6a82891fa49dfac83137f44fddbf6c24",
+    "sha256": "765a836d815ef8c9ebf6bcfb1811303768ba7d518cee3679b2c59a1eee989922",
+    "fingerprint": "0x0101000016010407",
+    "dpu_subgraphs": 1,
+    "dpu_outputs": 6,
+    "board_validation": "NOT_RUN"
+  },
+  "provenance": {
+    "local_results": "Original project: runs/ultra_grouped_20261103/quant50/map_comparison.json, compiled_verified/verification.json, audit.json and relu50/results.csv; summary values transcribed and checked during package creation.",
+    "historical_graph_failure": "Original project: runs/repair/latest_six_outputs_20261017_204849/修正说明与经验.md; local document read during package creation.",
+    "historical_reset_case": "User-supplied V0.15 board progress record dated 2026-10-31 in this conversation. No original simulation waveform or fixed-board rerun independently verified during package creation."
+  }
+}

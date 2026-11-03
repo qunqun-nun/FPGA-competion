@@ -1,0 +1,9 @@
+{"time":"2026-11-02T10:54:10.9220456+08:00","state":"shutdown","event":"CAPTURE_BEGIN"}
+{"time":"2026-11-02T10:54:16.9447340+08:00","state":"await_power_cycle","event":"POWER_DOWN_READY"}
+{"time":"2026-11-02T10:54:40.9019006+08:00","state":"await_power_cycle","event":"CAPTURE_WAITING"}
+{"time":"2026-11-02T10:54:53.0466370+08:00","state":"interrupt","event":"COLD_AUTOBOOT_INTERRUPTED"}
+{"time":"2026-11-02T10:54:53.0651098+08:00","state":"fatload","event":"IMAGE17_FATLOAD"}
+{"time":"2026-11-02T10:54:54.5995987+08:00","state":"boot","event":"IMAGE17_RAM_BOOT"}
+{"time":"2026-11-02T10:55:10.9120965+08:00","state":"boot","event":"CAPTURE_WAITING"}
+{"time":"2026-11-02T10:55:21.5114311+08:00","state":"boot","event":"COLD_LINUX_LOGIN_READY"}
+{"time":"2026-11-02T10:55:21.5127614+08:00","state":"boot","event":"CAPTURE_END"}

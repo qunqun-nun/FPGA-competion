@@ -1,0 +1,11 @@
+{
+  "actual_long_rtl_sources_tested": 4,
+  "roundtrip_byte_match": true,
+  "scope": "actual >259-char RTL files through package enumerator and ZIP writer; no board test",
+  "files": [
+    "rebuild/build/link/_x/link/vivado/vpl/.local/hw_platform/prj/fengyan_pl.srcs/sources_1/imports/v014_unified_work_20261024/third_party/delivery_to_b_20261011/hdmi_display_c_20261011/rtl/c_hdmi_display_pipeline_bd.v",
+    "rebuild/build/link/_x/link/vivado/vpl/.local/hw_platform/prj/fengyan_pl.srcs/sources_1/imports/v014_unified_work_20261024/third_party/delivery_to_b_20261011/hdmi_display_c_20261011/rtl/display_framebuffer_640x480.sv",
+    "rebuild/v017_link/_x/link/vivado/vpl/.local/hw_platform/prj/fengyan_pl.srcs/sources_1/imports/v014_unified_work_20261024/third_party/delivery_to_b_20261011/hdmi_display_c_20261011/rtl/c_hdmi_display_pipeline_bd.v",
+    "rebuild/v017_link/_x/link/vivado/vpl/.local/hw_platform/prj/fengyan_pl.srcs/sources_1/imports/v014_unified_work_20261024/third_party/delivery_to_b_20261011/hdmi_display_c_20261011/rtl/display_framebuffer_640x480.sv"
+  ]
+}

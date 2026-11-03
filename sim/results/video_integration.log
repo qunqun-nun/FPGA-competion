@@ -1,0 +1,34 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Admin/Desktop/fengyan-zcu104-v0.17.3/src/hardware/ip_repo/dummy_video_in_source_1_0/src/dummy_video_in_source.v" into library work
+INFO: [VRFC 10-311] analyzing module dummy_video_in_source
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Admin/Desktop/fengyan-zcu104-v0.17.3/src/hardware/ip_repo/pl_video_in_1_0/src/pl_video_in.v" into library work
+INFO: [VRFC 10-311] analyzing module pl_video_in
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Admin/Desktop/fengyan-zcu104-v0.17.3/src/hardware/ip_repo/dummy_video_in_source_1_0/tb/tb_dummy_pl_video_in_integration.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_dummy_pl_video_in_integration
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe tb_dummy_pl_video_in_integration -s tb_dummy_pl_video_in_integration_sim 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.dummy_video_in_source
+Compiling module work.pl_video_in
+Compiling module work.tb_dummy_pl_video_in_integration
+Built simulation snapshot tb_dummy_pl_video_in_integration_sim
+
+****** xsim v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/tb_dummy_pl_video_in_integration_sim/xsim_script.tcl
+# xsim {tb_dummy_pl_video_in_integration_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+TB_DUMMY_PL_VIDEO_IN_INTEGRATION_PASS
+$finish called at time : 4095485 ns : File "C:/Users/Admin/Desktop/fengyan-zcu104-v0.17.3/src/hardware/ip_repo/dummy_video_in_source_1_0/tb/tb_dummy_pl_video_in_integration.sv" Line 118
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Nov  3 17:33:48 2026...

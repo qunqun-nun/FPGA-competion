@@ -1,0 +1,12 @@
+test_gold (test_evidence.EvidenceTests.test_gold) ... ok
+test_limits (test_evidence.EvidenceTests.test_limits) ... ok
+test_manifest_changed_missing (test_evidence.EvidenceTests.test_manifest_changed_missing) ... ok
+test_manifest_escape (test_evidence.EvidenceTests.test_manifest_escape) ... ok
+test_stats_p95_window (test_evidence.EvidenceTests.test_stats_p95_window) ... ok
+test_stats_reject_invalid (test_evidence.EvidenceTests.test_stats_reject_invalid) ... ok
+test_true_exitcode (test_evidence.EvidenceTests.test_true_exitcode) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.175s
+
+OK

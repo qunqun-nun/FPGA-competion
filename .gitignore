@@ -35,7 +35,6 @@ desktop.ini
 *.hw/
 *.ip_user_files/
 _x/
-build/
 vitis_hls.log
 xcd.log
 
@@ -47,7 +46,6 @@ xsim.dir/
 *.pb
 
 # Large/generated reports that should be regenerated
-*.rpt
 *.dcp
 *.ltx
 *.mmi
@@ -62,3 +60,14 @@ runtime/tests/evidence/*.so
 runtime/tests/evidence/*.dll
 runtime/tests/evidence/*.s
 
+
+# Reproducible inputs and signed-off reports are tracked.
+build/output/
+sim/results/*/
+board/state/
+board/runtime/tests/evidence/
+!sim/results/*.log
+!build/reports/**/*.rpt
+!build/inputs/**
+!board/results/**/*.log
+!skill/validation/*.log
