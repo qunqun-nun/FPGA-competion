@@ -2,7 +2,6 @@
   "layout": "repository_v2",
   "manifest": "manifest.json",
   "files": {
-    "board_results_pending.txt": "9ca740f5bcaa7bf07d8088314f9b76658b785925af3246fd4b8b4b4133344225",
     "deployment.json": "07167b89fa7d83a9bcf0f2a4b43bfbe04ecaef4eb3201dc2663699fdae79236e",
     "README.md": "2647bae76b46e0683636aea088484f3161cae6ec0b08237bd49a284dc86a3626",
     "version": "20370f958c4d7bb004b44c405271dd3d271f53fa8125fe74992fc7d330aebb0d",
