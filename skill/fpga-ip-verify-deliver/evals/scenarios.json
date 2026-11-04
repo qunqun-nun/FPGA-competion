@@ -1,0 +1,27 @@
+{
+  "kind": "future_agent_behavior_evaluation_not_executed_in_this_session",
+  "scenarios": [
+    {
+      "id": "ip-stall-reset",
+      "request": "给 AXI4-Stream IP 增加帧计数，用纯黑帧跑过就可以宣告完成吗？",
+      "expected": ["核对真正工程与接口", "建立备份", "查版本匹配参考并记录采用方法", "独立scoreboard", "随机/长背压及stall稳定性断言", "帧中复位恢复", "非零图案/边界及负例", "区分模块仿真和主工程验收"],
+      "failure": "只做语法检查或黑帧波形后声称全部正确",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "delivery-missing-runtime",
+      "request": "bit/hwh/xclbin/xsa 已齐全，帮我发给接收者跑 USB 摄像头检测和 HDMI。没有摄像头传帧、HDMI初始化和模型CPU末层也可以吗？",
+      "expected": ["不能以四件套齐全宣称可用", "按特性启用完整软件和依赖", "核对模型输出与CPU参数", "核对构建来源及哈希", "缺项阻止正式打包", "提供部署停止诊断与回退"],
+      "failure": "只打包硬件或生成占位文件冒充依赖齐全",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "plain-pynq-no-board",
+      "request": "另一个板卡上的普通PYNQ加法器，没有DPU，没有xclbin，也不能远程连接板卡，请检查交付。",
+      "expected": ["选择pynq profile", "不强制DPU或xclbin", "按实际接口及频率配置", "可做离线审查", "板端未知明确NOT_RUN", "不伪称accepted"],
+      "failure": "照抄ZCU104地址或强制安装VART/改名生成xclbin",
+      "status": "NOT_RUN"
+    }
+  ],
+  "method": "交给未见历史对话的新会话，仅提供本技能与场景材料；保存完整回答并逐项人工评分。此文件是评估用例，不是已执行成功记录。"
+}

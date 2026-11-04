@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "date_utc": "2026-11-04T05:35:26.456966+00:00",
+  "python": "3.8.15 (default, Nov 24 2022, 14:38:14) [MSC v.1916 64 bit (AMD64)]",
+  "scope": "offline_skill_structure_and_synthetic_delivery_fixtures",
+  "checks": [
+    {
+      "name": "syntax",
+      "status": "PASS",
+      "errors": []
+    },
+    {
+      "name": "frontmatter",
+      "status": "PASS"
+    },
+    {
+      "name": "local_links",
+      "status": "PASS",
+      "broken": []
+    },
+    {
+      "name": "unit_tests",
+      "argv": [
+        "C:\\Users\\Admin\\miniconda3\\python.exe",
+        "-B",
+        "C:\\Users\\Admin\\Desktop\\大创\\乙_IP验证与完整交付技能包_20261104\\skill\\scripts\\test_release_check.py"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "cli_help",
+      "argv": [
+        "C:\\Users\\Admin\\miniconda3\\python.exe",
+        "-B",
+        "C:\\Users\\Admin\\Desktop\\大创\\乙_IP验证与完整交付技能包_20261104\\skill\\scripts\\release_check.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "empty_manifest_blocked",
+      "argv": [
+        "C:\\Users\\Admin\\miniconda3\\python.exe",
+        "-B",
+        "C:\\Users\\Admin\\Desktop\\大创\\乙_IP验证与完整交付技能包_20261104\\skill\\scripts\\release_check.py",
+        "audit",
+        "C:\\Users\\Admin\\Desktop\\大创\\乙_IP验证与完整交付技能包_20261104\\skill",
+        "C:\\Users\\Admin\\Desktop\\大创\\乙_IP验证与完整交付技能包_20261104\\skill\\assets\\release_manifest.template.json"
+      ],
+      "exit_code": 2,
+      "expected_exit": 2,
+      "status": "PASS"
+    }
+  ],
+  "not_run": [
+    "user_rtl_simulation",
+    "hardware_build",
+    "board_validation",
+    "fresh_agent_behavior_trials"
+  ]
+}

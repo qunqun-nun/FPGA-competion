@@ -1,0 +1,15 @@
+{
+  "assets/report.md": "04c7e698f135ba490a4443d765e5be907fb2030a6c4f54b5ee5eb548d7c40061",
+  "README.md": "cef11a63be3260caa2f44b839f5dd40263087e0ea0ec6c4ac9344c2df763b0ed",
+  "references/case.json": "07626fd8252d8b735a8a90b1e1c53fbd9049d0fc36d855159fbd72e2032b1b03",
+  "references/coverage.md": "dcaf623649e16e00cc5e4569d628d3571c5ebc3379f909d6a2f9c93a4b27a339",
+  "references/environment-recovery.md": "74825195089db967511eb994167b62c80aaee077eee0807e23d6a35a32b1fb3d",
+  "references/pitfalls.md": "a5ec269db96edc54e00861bbdc38eb6854b6c28875eef3699fb5d089aa9af730",
+  "references/ptq.md": "b2452e4f395506fc3e8d3b7a62822654c33a741936b080e96071c15883bc7ef6",
+  "references/sources.md": "ab81038944a2cec96f413a8a1e3ff9a0a962823a037f780c0f13502d496b0bd0",
+  "scripts/compare_map.py": "a223608b4ce0e31d29242dc19cac29f9e1abf252e5ad0f34e1598c8e58230c20",
+  "scripts/probe_environment.py": "2e1d08142f578ec6b5d0b1c259c9a0678301e0d6e86cfb743b97be1edc2e5043",
+  "scripts/verify_manifest.py": "ba4cb9ed92adeb30fcf9c85ec874c757ad1c45ac6a82c50a69bc10a336362456",
+  "SKILL.md": "b6f6d1d90299d82a24dedd43d7fbff13cdda75bfc808288002929640ffdaea6c",
+  "validation_results.json": "c1333c47c8aa2785e77938f13dfdfe353ba547c4376de4578940641a05dc712c"
+}

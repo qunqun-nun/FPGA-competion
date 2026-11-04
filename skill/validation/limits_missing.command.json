@@ -1,9 +1,0 @@
-{
-  "argv": [
-    "C:\\Users\\csq12\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
-    "skill\\pynq-board-evidence\\scripts\\evidence.py",
-    "limits",
-    "skill\\pynq-board-evidence\\assets\\metrics.json"
-  ],
-  "exitcode": 2
-}

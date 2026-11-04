@@ -1,0 +1,9 @@
+{
+  "build_id": null,
+  "target_part": null,
+  "tools": {},
+  "source_revision": null,
+  "commands_log": null,
+  "artifacts": {},
+  "notes": "Each hardware role maps to actual final path and sha256; record source commands, not invented metadata."
+}

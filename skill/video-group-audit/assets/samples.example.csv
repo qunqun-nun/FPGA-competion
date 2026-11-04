@@ -1,5 +1,0 @@
-path,split,group
-train/images/frame001.png,train,video-a
-valid/images/frame002.png,valid,video-b
-test/images/frame003.png,test,video-c
-

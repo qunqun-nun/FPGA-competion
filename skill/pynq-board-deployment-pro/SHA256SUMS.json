@@ -1,0 +1,28 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "pynq-board-evidence/agents/openai.yaml": "ed15211e15916ec3a6d5e0063b236b171e4de8da43d8df1abd339c99ed2b9bd9",
+    "pynq-board-evidence/assets/board-profile.json": "af16c60c86c3f743912f8227a46829ab4c70058837a852e3ab57bf0f4b4087e9",
+    "pynq-board-evidence/assets/metrics.json": "5102744b3be051cfe1929d4e8cd8fd6bb626386fa98846d811fad0acc9983f12",
+    "pynq-board-evidence/assets/report.md": "0afd02a703af27900cc1f8f9c97385aaa37adc31723b137cc20d8813c13fc106",
+    "pynq-board-evidence/references/dataflow.md": "cf890f51a9e6fc9d93a34b365e9b3264d90f4ada323240a1b9e440aa07c4bfea",
+    "pynq-board-evidence/references/deployment.md": "bd13f9781474ca3fdadba673af24ce64f2581cac72c915191ee260207a594a33",
+    "pynq-board-evidence/references/evidence/measurement.json": "e5a200738abd2c2ed3bb651933ba94d06289797e8b49165d75ae1cb4f7130c9a",
+    "pynq-board-evidence/references/evidence/recomputed.json": "e376df2cbe056188c1857449e07a60292bf9fb59e0e7ec72a6aa4f994f5b24c3",
+    "pynq-board-evidence/references/evidence/tasks.jsonl": "e71fe8c5205f95b0eb1b055a481e6944ad9fe635930fcc4fd6db11357eeccf23",
+    "pynq-board-evidence/references/measurement.md": "49209af0fca33ead9d1deee450164fb87ddf871ff07abfd176ad77d96507fef8",
+    "pynq-board-evidence/references/prompts.md": "6be819c0e4fc1dc0e02afb6baeb10cd911ac6153a58a6a8884c7622e886689d5",
+    "pynq-board-evidence/references/tools.md": "c896d179322d36d609ddf8e93ab8c69ae2b7e493ee444d329b68fdc7990ffc63",
+    "pynq-board-evidence/references/troubleshooting.md": "e172554c49f55b8dd0ad428674202fb70241133020b7eb240d6e8ddfad22b205",
+    "pynq-board-evidence/references/version-history.md": "3aebf5a6f6a86def7b971667b0d33520f15da9b40f9f66834baf1c44a9a60463",
+    "pynq-board-evidence/scripts/evidence.py": "124437997ea5f883e6244ea92db9f61258960b1584320c8a5a60be22ea7fe78e",
+    "pynq-board-evidence/scripts/run_logged.py": "569f62c2442bac2fa43d0aa075193a104eccce952d431f2e16162b3cb7581481",
+    "pynq-board-evidence/scripts/test_evidence.py": "a0bb648291ce0c15baa91bb436a60336430149691be40545e610bd8e4a5c3456",
+    "pynq-board-evidence/SKILL.md": "e74e9e049ba8a4e48a78c26b454a4051f805b076661fe9b0dc5388efa8e4bf20",
+    "README.md": "2b7dbbf442fcbfd7d26ddef8a0aea4c3481faa5bec335cd9e2e0d9e588bc37e8",
+    "validation/check_0.log": "6cf9e7f0d34ccd36dbd28f270cd28dd04277b2e1516bd4333ce7bb501d7b18d4",
+    "validation/check_1.log": "b52942c4c4e4a7ca1c260b443fb640c4998983ceb4c176850549101897dc0016",
+    "validation/check_2.log": "54c886f8dd9315c143b4e2089a016258243be17694d902d6ec584ae0d92c6925",
+    "validation.md": "ba1eeb1a55b90027a0e5495b811a074a8c724f4b7716c81c566f405559c10efb"
+  }
+}

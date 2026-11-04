@@ -1,0 +1,25 @@
+test_acceptance_requires_board (__main__.DeliveryTests) ... ok
+test_all_feature_requirements (__main__.DeliveryTests) ... ok
+test_build_artifact_mismatch (__main__.DeliveryTests) ... ok
+test_build_mismatch (__main__.DeliveryTests) ... ok
+test_complete_retest (__main__.DeliveryTests) ... ok
+test_duplicate_file (__main__.DeliveryTests) ... ok
+test_duplicate_hardware_role (__main__.DeliveryTests) ... ok
+test_each_required_role (__main__.DeliveryTests) ... ok
+test_exact_pack (__main__.DeliveryTests) ... ok
+test_failed_gate (__main__.DeliveryTests) ... ok
+test_failed_pack_no_output (__main__.DeliveryTests) ... ok
+test_missing_file (__main__.DeliveryTests) ... ok
+test_missing_gate_evidence (__main__.DeliveryTests) ... ok
+test_no_overwrite (__main__.DeliveryTests) ... ok
+test_pack_outside_root (__main__.DeliveryTests) ... ok
+test_pynq_without_xclbin (__main__.DeliveryTests) ... ok
+test_reserved_manifest_path (__main__.DeliveryTests) ... ok
+test_tampered_file (__main__.DeliveryTests) ... ok
+test_unknown_feature (__main__.DeliveryTests) ... ok
+test_unsafe_paths (__main__.DeliveryTests) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 6.006s
+
+OK

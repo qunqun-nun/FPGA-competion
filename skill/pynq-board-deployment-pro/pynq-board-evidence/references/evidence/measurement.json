@@ -1,0 +1,62 @@
+{
+  "measured_tasks": 120,
+  "warmup_tasks": 10,
+  "duration_seconds": 83.9340675,
+  "full_detection_service_fps": 1.429693610404381,
+  "successful_camera_read_fps": 20.87352671190396,
+  "phase_timings": {
+    "input_tensor_ms": {
+      "n": 120,
+      "mean_ms": 40.262835583333334,
+      "p95_ms": 42.90716,
+      "min_ms": 37.52626,
+      "max_ms": 45.3738
+    },
+    "dpu_submit_to_ready_ms": {
+      "n": 120,
+      "mean_ms": 13.995534833333334,
+      "p95_ms": 14.27767,
+      "min_ms": 13.74635,
+      "max_ms": 15.83516
+    },
+    "cpu_heads_ms": {
+      "n": 120,
+      "mean_ms": 227.83126458333334,
+      "p95_ms": 239.39666,
+      "min_ms": 222.32414,
+      "max_ms": 248.08047
+    },
+    "decode_nms_restore_ms": {
+      "n": 120,
+      "mean_ms": 7.730054083333333,
+      "p95_ms": 8.26297,
+      "min_ms": 7.48407,
+      "max_ms": 9.62951
+    },
+    "detection_service_ms": {
+      "n": 120,
+      "mean_ms": 290.25940158333333,
+      "p95_ms": 304.25513,
+      "min_ms": 282.4613,
+      "max_ms": 314.13267
+    },
+    "submit_to_pl_accept_ms": {
+      "n": 120,
+      "mean_ms": 0.35567108333333336,
+      "p95_ms": 0.37598,
+      "min_ms": 0.33395,
+      "max_ms": 1.01431
+    },
+    "observed_request_to_accept_ms": {
+      "n": 120,
+      "mean_ms": 341.2695004166667,
+      "p95_ms": 357.17642,
+      "min_ms": 332.04741,
+      "max_ms": 370.10212
+    }
+  },
+  "exitcode": "0",
+  "model_sha256": "64fde5e0f8f21c1d42c253e29db2104c31b6b226a40b2269d3fba40b33b3b5e3",
+  "evidence_type": "historical_board_measurement",
+  "normalization": "timestamps and durations retained; no new hardware execution"
+}

@@ -1,0 +1,317 @@
+{
+  "date": "2026-11-04",
+  "mode": "three_independent_packages",
+  "packages": [
+    {
+      "directory": "fpga-ip-verify-deliver",
+      "source_archive": "乙_IP验证与完整交付技能包_20261104.zip",
+      "archive_sha256": "a183163c7a25946f1a2826622a43df97e63af71795a2ad2b4e477f0450ffb165",
+      "file_count": 33,
+      "source_manifest": "PASS",
+      "files": [
+        {
+          "path": "assets/build-record.template.json",
+          "sha256": "d5d4d5911714ebe7c7cd845e23ff78f674a91cad6289e8d9c010da84f4675b08"
+        },
+        {
+          "path": "assets/handoff.template.md",
+          "sha256": "dcaf695c95fb670ee94c621ce3958879bb725d008badd13df20f0eded28e2d16"
+        },
+        {
+          "path": "assets/reference-ledger.template.md",
+          "sha256": "5adcfa0b545851dbbd89221758490cb213838f971b84e6c6dffa54cdb2e8e9cf"
+        },
+        {
+          "path": "assets/release_manifest.template.json",
+          "sha256": "4b521349a5041ed718084321a0291e8b05922bf0a2e74bf07ccbab34508cf501"
+        },
+        {
+          "path": "assets/verification-matrix.template.md",
+          "sha256": "ef5f8bf5cf332a44349e2db36e15331984ed0a6898cf7c753c609a25de4482b3"
+        },
+        {
+          "path": "evals/scenarios.json",
+          "sha256": "c6fa3a3a636c8a406b0cd0d67b448a4fcd461cc905d2e2f3f6eaa40d0bc0aadc"
+        },
+        {
+          "path": "README.md",
+          "sha256": "1850d3f9799cacb1fb2dd2bb3d51ec057e17cce309ea5f4883e90dce5f19a7b5"
+        },
+        {
+          "path": "references/cases.md",
+          "sha256": "7ceffbb507fb024a10c47f192d0c683f1568de95529876626aeabcf6142c30e7"
+        },
+        {
+          "path": "references/delivery.md",
+          "sha256": "551e5f4dfc7069f6620e8535bee88fde875b09301226eb244933de10884997f3"
+        },
+        {
+          "path": "references/manifest-schema.md",
+          "sha256": "359be46b7a6ab1a1a2e089ce6014ead8711cd5d4016ba4ed6e34cf17e37f1843"
+        },
+        {
+          "path": "references/prompts.md",
+          "sha256": "ccb39a72a082f729a4490f4e7e78bda245385f3f92b20b0404e8a4c894cd44be"
+        },
+        {
+          "path": "references/reference-research.md",
+          "sha256": "87649a8afd43035d3faa5f9a081109c1cf879a0fde33eab449da8d18c8cad741"
+        },
+        {
+          "path": "references/verification.md",
+          "sha256": "f1bd27c25d574f9e39c0d724733f35885753518f55c718220a29513b60cdae45"
+        },
+        {
+          "path": "scripts/release_check.py",
+          "sha256": "12f255d6a49343c1bdaa930560723b79d35b6e76ef60baed233f2d4657b280b9"
+        },
+        {
+          "path": "scripts/test_release_check.py",
+          "sha256": "ea6c7d0b319e5146944ae912065803a96c7e402f97b69eecc902365e456b8b96"
+        },
+        {
+          "path": "scripts/validate_skill.py",
+          "sha256": "dae07814d1d4f3a7913bdcc7f1cdba9471816b540ecf1fe44ddc7107c6e33555"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "b6f3e51ba7297c213a7d72bf1605b9ddb290fb30ad357087cfb5c4a188e4fd52"
+        },
+        {
+          "path": "validation/relocation/cli_help.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "validation/relocation/cli_help.stdout.log",
+          "sha256": "b2e613c6c09520b17f66bd100446c770f46d2cd68bed8fa596d8542cc9767d94"
+        },
+        {
+          "path": "validation/relocation/empty_manifest_blocked.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "validation/relocation/empty_manifest_blocked.stdout.log",
+          "sha256": "15f6e77b4c42e7d40757d3d48f62d29432f880b5720c8b78a48a3cf3f6136476"
+        },
+        {
+          "path": "validation/relocation/results.json",
+          "sha256": "ff1a4a383d151e2303f52bf2a57a4d85022b3963387ff3063264cc244cdbd4d1"
+        },
+        {
+          "path": "validation/relocation/unit_tests.stderr.log",
+          "sha256": "f6f39854c56f3bb81681618b830408a251490fb1b490df8ce25028ff987273fc"
+        },
+        {
+          "path": "validation/relocation/unit_tests.stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "validation/run_1/cli_help.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "validation/run_1/cli_help.stdout.log",
+          "sha256": "b2e613c6c09520b17f66bd100446c770f46d2cd68bed8fa596d8542cc9767d94"
+        },
+        {
+          "path": "validation/run_1/empty_manifest_blocked.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "validation/run_1/empty_manifest_blocked.stdout.log",
+          "sha256": "15f6e77b4c42e7d40757d3d48f62d29432f880b5720c8b78a48a3cf3f6136476"
+        },
+        {
+          "path": "validation/run_1/results.json",
+          "sha256": "37f81412c96e4dfd60846935777d7443717f9c569464bcf637c8fc6d97149f50"
+        },
+        {
+          "path": "validation/run_1/unit_tests.stderr.log",
+          "sha256": "bb15fb08f44c3b849c84d2e4a3627b13144dac41d1723fe02dff688e4889d517"
+        },
+        {
+          "path": "validation/run_1/unit_tests.stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "validation/验证报告.md",
+          "sha256": "a8ec543f1e3725571853d472fdd5bff993a3f7b690eb5f0b538d541b242baaec"
+        },
+        {
+          "path": "SHA256SUMS.json",
+          "sha256": "e30c6d0bed4980808872d1fed3afb9269e77695c6e013cd1d433908364a5f00e"
+        }
+      ]
+    },
+    {
+      "directory": "pynq-model-deployment",
+      "source_archive": "pynq-model-deployment_skill_vitis ai(1).zip",
+      "archive_sha256": "6f64c4b25be8484c6361ff035cc671da746801b53fb1b9dde90b3c69fc993392",
+      "file_count": 14,
+      "source_manifest": "PASS",
+      "files": [
+        {
+          "path": "assets/report.md",
+          "sha256": "04c7e698f135ba490a4443d765e5be907fb2030a6c4f54b5ee5eb548d7c40061"
+        },
+        {
+          "path": "README.md",
+          "sha256": "cef11a63be3260caa2f44b839f5dd40263087e0ea0ec6c4ac9344c2df763b0ed"
+        },
+        {
+          "path": "references/case.json",
+          "sha256": "07626fd8252d8b735a8a90b1e1c53fbd9049d0fc36d855159fbd72e2032b1b03"
+        },
+        {
+          "path": "references/coverage.md",
+          "sha256": "dcaf623649e16e00cc5e4569d628d3571c5ebc3379f909d6a2f9c93a4b27a339"
+        },
+        {
+          "path": "references/environment-recovery.md",
+          "sha256": "74825195089db967511eb994167b62c80aaee077eee0807e23d6a35a32b1fb3d"
+        },
+        {
+          "path": "references/pitfalls.md",
+          "sha256": "a5ec269db96edc54e00861bbdc38eb6854b6c28875eef3699fb5d089aa9af730"
+        },
+        {
+          "path": "references/ptq.md",
+          "sha256": "b2452e4f395506fc3e8d3b7a62822654c33a741936b080e96071c15883bc7ef6"
+        },
+        {
+          "path": "references/sources.md",
+          "sha256": "ab81038944a2cec96f413a8a1e3ff9a0a962823a037f780c0f13502d496b0bd0"
+        },
+        {
+          "path": "scripts/compare_map.py",
+          "sha256": "a223608b4ce0e31d29242dc19cac29f9e1abf252e5ad0f34e1598c8e58230c20"
+        },
+        {
+          "path": "scripts/probe_environment.py",
+          "sha256": "2e1d08142f578ec6b5d0b1c259c9a0678301e0d6e86cfb743b97be1edc2e5043"
+        },
+        {
+          "path": "scripts/verify_manifest.py",
+          "sha256": "ba4cb9ed92adeb30fcf9c85ec874c757ad1c45ac6a82c50a69bc10a336362456"
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "b6f6d1d90299d82a24dedd43d7fbff13cdda75bfc808288002929640ffdaea6c"
+        },
+        {
+          "path": "validation_results.json",
+          "sha256": "c1333c47c8aa2785e77938f13dfdfe353ba547c4376de4578940641a05dc712c"
+        },
+        {
+          "path": "SHA256SUMS.json",
+          "sha256": "293c4e89cc870d3c71bab4a1ce5be5d844d3ddbf2964af6e1346258257e4e5ee"
+        }
+      ]
+    },
+    {
+      "directory": "pynq-board-deployment-pro",
+      "source_archive": "PYNQ部署与故障诊断技能包_专业版_20261104.zip",
+      "archive_sha256": "ab8ca79b947d77329b113e1fbc504ec4b160c3419048e5a6cbc08f6aa7b1f6b3",
+      "file_count": 24,
+      "source_manifest": "PASS",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "2b7dbbf442fcbfd7d26ddef8a0aea4c3481faa5bec335cd9e2e0d9e588bc37e8"
+        },
+        {
+          "path": "validation.md",
+          "sha256": "ba1eeb1a55b90027a0e5495b811a074a8c724f4b7716c81c566f405559c10efb"
+        },
+        {
+          "path": "pynq-board-evidence/SKILL.md",
+          "sha256": "e74e9e049ba8a4e48a78c26b454a4051f805b076661fe9b0dc5388efa8e4bf20"
+        },
+        {
+          "path": "validation/check_0.log",
+          "sha256": "6cf9e7f0d34ccd36dbd28f270cd28dd04277b2e1516bd4333ce7bb501d7b18d4"
+        },
+        {
+          "path": "validation/check_1.log",
+          "sha256": "b52942c4c4e4a7ca1c260b443fb640c4998983ceb4c176850549101897dc0016"
+        },
+        {
+          "path": "validation/check_2.log",
+          "sha256": "54c886f8dd9315c143b4e2089a016258243be17694d902d6ec584ae0d92c6925"
+        },
+        {
+          "path": "pynq-board-evidence/agents/openai.yaml",
+          "sha256": "ed15211e15916ec3a6d5e0063b236b171e4de8da43d8df1abd339c99ed2b9bd9"
+        },
+        {
+          "path": "pynq-board-evidence/assets/board-profile.json",
+          "sha256": "af16c60c86c3f743912f8227a46829ab4c70058837a852e3ab57bf0f4b4087e9"
+        },
+        {
+          "path": "pynq-board-evidence/assets/metrics.json",
+          "sha256": "5102744b3be051cfe1929d4e8cd8fd6bb626386fa98846d811fad0acc9983f12"
+        },
+        {
+          "path": "pynq-board-evidence/assets/report.md",
+          "sha256": "0afd02a703af27900cc1f8f9c97385aaa37adc31723b137cc20d8813c13fc106"
+        },
+        {
+          "path": "pynq-board-evidence/references/dataflow.md",
+          "sha256": "cf890f51a9e6fc9d93a34b365e9b3264d90f4ada323240a1b9e440aa07c4bfea"
+        },
+        {
+          "path": "pynq-board-evidence/references/deployment.md",
+          "sha256": "bd13f9781474ca3fdadba673af24ce64f2581cac72c915191ee260207a594a33"
+        },
+        {
+          "path": "pynq-board-evidence/references/measurement.md",
+          "sha256": "49209af0fca33ead9d1deee450164fb87ddf871ff07abfd176ad77d96507fef8"
+        },
+        {
+          "path": "pynq-board-evidence/references/prompts.md",
+          "sha256": "6be819c0e4fc1dc0e02afb6baeb10cd911ac6153a58a6a8884c7622e886689d5"
+        },
+        {
+          "path": "pynq-board-evidence/references/tools.md",
+          "sha256": "c896d179322d36d609ddf8e93ab8c69ae2b7e493ee444d329b68fdc7990ffc63"
+        },
+        {
+          "path": "pynq-board-evidence/references/troubleshooting.md",
+          "sha256": "e172554c49f55b8dd0ad428674202fb70241133020b7eb240d6e8ddfad22b205"
+        },
+        {
+          "path": "pynq-board-evidence/references/version-history.md",
+          "sha256": "3aebf5a6f6a86def7b971667b0d33520f15da9b40f9f66834baf1c44a9a60463"
+        },
+        {
+          "path": "pynq-board-evidence/scripts/evidence.py",
+          "sha256": "124437997ea5f883e6244ea92db9f61258960b1584320c8a5a60be22ea7fe78e"
+        },
+        {
+          "path": "pynq-board-evidence/scripts/run_logged.py",
+          "sha256": "569f62c2442bac2fa43d0aa075193a104eccce952d431f2e16162b3cb7581481"
+        },
+        {
+          "path": "pynq-board-evidence/scripts/test_evidence.py",
+          "sha256": "a0bb648291ce0c15baa91bb436a60336430149691be40545e610bd8e4a5c3456"
+        },
+        {
+          "path": "pynq-board-evidence/references/evidence/measurement.json",
+          "sha256": "e5a200738abd2c2ed3bb651933ba94d06289797e8b49165d75ae1cb4f7130c9a"
+        },
+        {
+          "path": "pynq-board-evidence/references/evidence/recomputed.json",
+          "sha256": "e376df2cbe056188c1857449e07a60292bf9fb59e0e7ec72a6aa4f994f5b24c3"
+        },
+        {
+          "path": "pynq-board-evidence/references/evidence/tasks.jsonl",
+          "sha256": "e71fe8c5205f95b0eb1b055a481e6944ad9fe635930fcc4fd6db11357eeccf23"
+        },
+        {
+          "path": "SHA256SUMS.json",
+          "sha256": "c89f349e7b276cf2c308a6e770fb30aaaf540d0557c6975dbbff3ab172907263"
+        }
+      ]
+    }
+  ]
+}

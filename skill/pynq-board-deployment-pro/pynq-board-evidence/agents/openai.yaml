@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYNQ 部署与故障诊断"
+  short_description: "提供 PYNQ 应用部署、模型适配、故障修复与性能验证的可复用流程"
+  default_prompt: "使用 $pynq-board-evidence 完成工程部署检查、故障诊断和结果验证。"

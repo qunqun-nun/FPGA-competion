@@ -1,0 +1,12 @@
+usage: release_check.py [-h] [--output OUTPUT] {audit,pack} root manifest
+
+Audit declared FPGA delivery evidence and package exactly the audited files.
+
+positional arguments:
+  {audit,pack}
+  root
+  manifest
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --output OUTPUT

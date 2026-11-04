@@ -1,0 +1,19 @@
+{
+  "profile": "pynq_xrt",
+  "stage": "board_retest",
+  "build_id": null,
+  "features": {"dpu": true, "camera": true, "hdmi": true, "device_tree": true, "native_runtime": true},
+  "files": [],
+  "verification": {
+    "syntax": {"status": "NOT_RUN", "reason": "Fill actual evidence"},
+    "module_simulation": {"status": "NOT_RUN", "reason": "Fill actual evidence"},
+    "protocol_assertions": {"status": "NOT_RUN", "reason": "Fill actual evidence"},
+    "packaged_ip": {"status": "NOT_RUN", "reason": "Fill actual evidence"},
+    "block_design": {"status": "NOT_RUN", "reason": "Fill actual evidence"},
+    "synthesis": {"status": "NOT_RUN", "reason": "Fill actual evidence"},
+    "implementation": {"status": "NOT_RUN", "reason": "Fill actual evidence"},
+    "timing": {"status": "NOT_RUN", "reason": "Fill actual evidence"},
+    "drc": {"status": "NOT_RUN", "reason": "Fill actual evidence"},
+    "board": {"status": "NOT_RUN", "reason": "Await actual board retest"}
+  }
+}
